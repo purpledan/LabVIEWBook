@@ -291,4 +291,25 @@
 
 	You may now save your VI by clicking ``File'' on the task bar and selecting save from the menu. Name it something like ``helloworld.vi''.\\ 
 	
+	\subsection{Review}
+	From this example, you have learned how to open $\labview$ and how to create a VI. You have also learned how programs are built using the front panel and the block diagram. This is enough for you to start experimenting with the available functions to create interesting programs.\\
+	
+	\pagebreak
+	\section{Mini Projects}
+	\begin{enumerate}
+		\item You are building a safety interlock system for your laboratory.\\
+		A powerful x-ray source is required to perform diffraction measurements on powdered samples. This x-ray source requires water to flow through its manifold so that it does not overheat and burnout. If this breaks, you owe the laboratory R100 000 in repair fees. Although the x-rays you receive at the dentist is safe, the intensity of the x-rays used for XRD would cause serious radiation burns which could lead to cancer, the x-ray source should not be allowed to run if the safety door is open.\\
+		
+		Build a interlock system in $\labview$ that would prevent damage to the XRD machine and prevent damage to you.\\
+		
+		To achieve this, you may use switches on your front panel to indicate whether water is flowing through the system and whether the safety door is closed or not. You need a switch that would be the power switch for the x-ray source. Your program needs to light up an LED indicator if the power is switched on and the conditions for operation are met. If the conditions are not met, the LED indicator should not light up.
+		
+		\item You have a few friends from the United States who do not understand the Celsius temperature scale.\\
+		They are confused that we are walking around on the beach when it is 30\textdegree outside.\\
+		
+		Build a simple program which would accept a numerical input as degrees Celsius and convert that to Fahrenheit. This should allow your friends to get a feel for the Celsius temperature scale.\\
+		
+		This program is rather boring, let us make it more interesting by adding indicator lights for the boiling point and freezing point for a couple of materials. For example, if the input temperature is 50\textdegree, neither the boiling nor the freezing light should be on. If the temperature is above 100\textdegree, the boiling light should be on. You should have lights for water and ethanol. Bonus marks for an extra substance.\\
+	\end{enumerate}
+	
 	

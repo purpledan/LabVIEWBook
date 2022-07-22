@@ -22,4 +22,15 @@
 \contentsline {subsubsection}{Front Panel}{10}{}%
 \contentsline {subsubsection}{Block Diagram}{12}{}%
 \contentsline {subsection}{\numberline {1.4.3}Testing your program}{15}{}%
-\contentsline {chapter}{\numberline {2}The Second Chapter}{19}{}%
+\contentsline {subsection}{\numberline {1.4.4}Review}{16}{}%
+\contentsline {section}{\numberline {1.5}Mini Projects}{17}{}%
+\contentsline {chapter}{\numberline {2}Computing Fundamentals in LabVIEW}{19}{}%
+\contentsline {section}{\numberline {2.1}Decision making structures}{19}{}%
+\contentsline {section}{\numberline {2.2}Code looping structures}{19}{}%
+\contentsline {section}{\numberline {2.3}Aggregate data types}{19}{}%
+\contentsline {section}{\numberline {2.4}Creating functions}{19}{}%
+\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{19}{}%
+\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{21}{}%
+\contentsline {section}{\numberline {3.1}Getting Started}{21}{}%
+\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{21}{}%
+\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{21}{}%
