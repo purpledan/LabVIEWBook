@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Welcome}{1}{}%
 \contentsline {subsubsection}{C Programming}{1}{}%
-\contentsline {subsubsection}{LabVIEW Programming}{2}{}%
+\contentsline {subsubsection}{LabVIEW Programming}{3}{}%
 \contentsline {section}{\numberline {1.2}The LabVIEW Interface}{4}{}%
 \contentsline {subsection}{\numberline {1.2.1}Introduction}{4}{}%
 \contentsline {subsection}{\numberline {1.2.2}The VI}{5}{}%
@@ -20,5 +20,6 @@
 \contentsline {subsection}{\numberline {1.4.1}Problem statement}{10}{}%
 \contentsline {subsection}{\numberline {1.4.2}Implimentation}{10}{}%
 \contentsline {subsubsection}{Front Panel}{10}{}%
-\contentsline {subsubsection}{Block Diagram}{11}{}%
-\contentsline {chapter}{\numberline {2}The Second Chapter}{13}{}%
+\contentsline {subsubsection}{Block Diagram}{12}{}%
+\contentsline {subsection}{\numberline {1.4.3}Testing your program}{15}{}%
+\contentsline {chapter}{\numberline {2}The Second Chapter}{19}{}%
