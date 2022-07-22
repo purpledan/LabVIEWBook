@@ -57,13 +57,18 @@
 	}
 	\section{The LabVIEW Interface}
 	\subsection{Introduction}
-	LabVIEW usually greats you with a launcher, figure \ref{startup}. From here you may open your recent projects, start a fresh project, or open a virtual instrument, known as a VI.\\ %TODO
+	LabVIEW usually greats you with a launcher, figure \ref{startup}. From here you may open your recent projects, start a fresh project, or open a virtual instrument, known as a VI. For now, from the ``File'' drop down menu, select ``New VI'' or press \texttt{Ctrl+N} on your keyboard.\\
 	\\
-	You will need to familiarise yourself with the LabVIEW interface, this is best done by exploration, trail and error. Simply mousing over any button should give you some clue as to what the button does or what is contained in the menus. You probably would not break your computer or the LabVIEW installation by playing around with the interface.\\
+	Two windows will pop up, a ``Front Panel'' and a ``Block Diagram''. You will need to familiarise yourself with the LabVIEW interface, this is best done by exploration, trail and error. Simply mousing over any button should give you some clue as to what the button does or what is contained in the menus. You probably would not break your computer or the LabVIEW installation by playing around with the interface.\\
 	\\
-	In the next few sections we will go over how to create a VI, what is meant by the block diagram and the interface diagram, %TODO What is it called again?
-	how to cycle between these views, and how to place objects on these diagrams.
-	\subsection{Block Diagram}
+	In the next few sections we will go over what is meant by a VI, the difference between the block diagram and the front panel,
+	how to cycle between these views, and how to place objects on these windows.
+	\subsection{The VI}
+	As stated before, VI is short for virtual instrument. The idea is that you create an interface which may be operated by a human, usually with a mouse and keyboard. This interface is called the ``Front Panel'' in LabVIEW. You then glue the elements of the front panel together in the ``Block Diagram'', this is where the LabVIEW magic happens, or the LabVIEW logic execution engine, if you do not believe in magic.\\
+	\\
+	Figure \ref{exampleFront1}, on page \pageref{exampleFront1}, shows one of the first front panels I have ever created along with the block diagram in figure \ref{exampleBlock1}. By the end of this course you will be able to understand exactly what is going on there so do not let it intimidate you. Assert dominance over your computer, lest it assert dominance over you. %TODO Maybe make this a CS Lesson?
+	\subsubsection{The Front Panel}
+	Figure \ref{EmptyFront} shows an empty front panel. 
 	
 	\section{LabVIEW variables and you}
 	\subsection{Overview}
