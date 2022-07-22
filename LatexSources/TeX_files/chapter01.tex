@@ -1,7 +1,7 @@
 \chapter{Introduction}
 
 \section{Welcome}
-	Welcome to the LabVIEW course, for 3rd year physics students, at UJ.\\
+	Welcome to the $\labview$ course, for 3rd year physics students, at UJ.\\
 	In your first semester of $3^{rd}$ year, you have been exposed to a programming language called \texttt{C++}, an \textit{Object-Oriented} text based computer language.\\
 	With this mighty tool in hand, you made a little microcontroller do your bidding, specifically an \texttt{ATmega328} found on the Arduino boards.\\
 	You may have noticed how terse statements in \texttt{C++} can get, sometimes obfuscating the programmers intent, see listing \ref{tinychess} on page \pageref{tinychess}.\\
@@ -29,10 +29,10 @@
 	\end{lstlisting}
 	}
 	\subsubsection{LabVIEW Programming}
-	Without having any idea what LabVIEW is, I am sure you are able to follow what figure \ref{Labview1}, on page \pageref{Labview1}, is attempting to convey.\\
-	In figure \ref{GUI1}, on page \pageref{GUI1}, you will find the \textit{Graphical User Interface}, or GUI, for the summing program. The two figures are one program developed simultaneously, we will dive into the details throughout the course.\\
+	Without having any idea what $\labview$ is, I am sure you are able to follow what figure \ref{Labview1}, on page \pageref{Labview1}, is attempting to convey.\\
+	In figure \ref{GUI1}  you will find the \textit{Graphical User Interface}, or GUI, for the summing program. The two figures are one program developed simultaneously, we will dive into the details throughout the course.\\
 	\\
-	Before you even ask, yes it is really that simple. You will find that creating programs in LabVIEW is fun and rewarding, so relax and take it easy.\\
+	Before you even ask, yes it is really that simple. You will find that creating programs in $\labview$ is fun and rewarding, so relax and take it easy.\\
 	\\
 	By the end of this course, you will be able to create complex programs to help you solve problems in physics, as well as bridge the gap between the computer world and the real world.\\  
 
@@ -55,54 +55,139 @@
 	1);}}
 	\end{lstlisting}
 	}
+	\begin{figure}
+		\centering
+		\begin{subfigure}[b]{0.49\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{Labview1}
+			\caption{A $$\labview$$ block diagram.}
+			\label{Labview1}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.49\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{GUI1}
+			\caption{A $$\labview$$ front panel.}
+			\label{GUI1}
+	\end{subfigure}
+		\caption{A $\labview$ program to sum two numbers.}
+		\label{Labview1s}
+	\end{figure}
 	\section{The LabVIEW Interface}
 	\subsection{Introduction}
-	LabVIEW usually greats you with a launcher, figure \ref{startup}. From here you may open your recent projects, start a fresh project, or open a virtual instrument, known as a VI. For now, from the ``File'' drop down menu, select ``New VI'' or press \texttt{Ctrl+N} on your keyboard.\\
+	$\labview$ usually greats you with a launcher, figure \ref{startup}. From here you may open your recent projects, start a fresh project, or open a virtual instrument, known as a VI. For now, from the ``File'' drop down menu, select ``New VI'' or press \texttt{Ctrl+N} on your keyboard.\\
 	\\
-	Two windows will pop up, a ``Front Panel'' and a ``Block Diagram''. You will need to familiarise yourself with the LabVIEW interface, this is best done by exploration, trail and error. Simply mousing over any button should give you some clue as to what the button does or what is contained in the menus. You probably would not break your computer or the LabVIEW installation by playing around with the interface.\\
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{startup}
+		\caption{The window $\labview$ greats you with on startup.}
+		\label{startup}
+	\end{figure}
+	Two windows will pop up, a ``Front Panel'' and a ``Block Diagram''. You will need to familiarise yourself with the $\labview$ interface, this is best done by exploration, trail and error. Simply mousing over any button should give you some clue as to what the button does or what is contained in the menus. You probably would not break your computer or the $\labview$ installation by playing around with the interface.\\
 	\\
 	In the next few sections we will go over what is meant by a VI, the difference between the block diagram and the front panel,
 	how to cycle between these views, and how to place objects on these windows.
 	\subsection{The VI}
-	As stated before, VI is short for virtual instrument. The idea is that you create an interface which may be operated by a human, usually with a mouse and keyboard. This interface is called the ``Front Panel'' in LabVIEW. You then glue the elements of the front panel together in the ``Block Diagram'', this is where the LabVIEW magic happens, or the LabVIEW logic execution engine, if you do not believe in magic.\\
+	As stated before, VI is short for virtual instrument. The idea is that you create an interface which may be operated by a human, usually with a mouse and keyboard. This interface is called the ``Front Panel'' in $\labview$. You then glue the elements of the front panel together in the ``Block Diagram'', this is where the $\labview$ magic happens, or the $\labview$ logic execution engine, if you do not believe in magic.\\
 	\\
 	Figure \ref{exampleFront1}, on page \pageref{exampleFront1}, shows one of the first front panels I have ever created along with the block diagram in figure \ref{exampleBlock1}. By the end of this course you will be able to understand exactly what is going on there so do not let it intimidate you. Assert dominance over your computer, lest it assert dominance over you. %TODO Maybe make this a CS Lesson?
+			\begin{figure}
+			\centering
+			\begin{subfigure}[b]{0.49\textwidth}
+				\centering
+				\includegraphics[width=\textwidth]{exampleFront1}
+				\caption{A more useful front panel.}
+				\label{exampleFront1}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[b]{0.49\textwidth}
+				\centering
+				\includegraphics[width=\textwidth]{ExampleBlock1}
+				\caption{The logic behind the front panel.}
+				\label{exampleBlock1}
+			\end{subfigure}
+			\caption{A program which turns a kettle on and off to achieve a set temperature.}
+			\label{oldExample}
+		\end{figure}
 	\subsubsection{The Front Panel}
 	Figure \ref{EmptyFront} shows an empty front panel. \texttt{Right click}ing anywhere on the grey grid will open a menu containing controls, known as the ``controls palette''. Do not be overwhelmed, given some time you will get a feel for where the most important controls are. As mentioned, and will be repeated throughout this book, explore the interface on your own.\\
 	\\
-	Here is a little secret, simply press \texttt{Ctrl+H}. This will open a floating window called ``Context Help'', your new life-line in LabVIEW. Hover over anything and it will give you some information about what you are looking at.  Pressing ``Detailed help'' takes you to the LabVIEW help files. You will spend a great deal of time reading these documents as you progress through your LabVIEW journey so you should know where to find it.\\
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{EmptyFront}
+		\caption{A barren wasteland of a front panel, not very useful.}
+		\label{EmptyFront}
+	\end{figure}
+	Here is a little secret, simply press \texttt{Ctrl+H}. This will open a floating window called ``Context Help'', your new life-line in $\labview$. Hover over anything and it will give you some information about what you are looking at.  Pressing ``Detailed help'' takes you to the $\labview$ help files. You will spend a great deal of time reading these documents as you progress through your $\labview$ journey so you should know where to find it.\\
 	\\
-	If you figured out how to place down controls in LabVIEW, that is great, do not let the interface intimidate you. If you have not done so yet, we will go through the details in section \ref{HowToPlace}.
+	If you figured out how to place down controls in $\labview$, that is great, do not let the interface intimidate you. If you have not done so yet, we will go through the details in section \ref{HowToPlace}.
 	\subsubsection{The Block Diagram}
-	The sibling panel to figure \ref{EmptyFront} may be found in figure \ref{EmptyBlock}. As before, you may \texttt{Right click} on the white background to open the ``functions palette''. This is where you will spend most of your time in LabVIEW, other than the help files that is. You thread together small function blocks to build the logic of your program. If you are reading this and can't find the block diagram panel, simply press \texttt{Ctrl-E}, this will switch from the front panel to the block diagram and vice versa. This is probably the most important hot-key in LabVIEW so learn it, you will often have to flip between the two windows.\\
-	
+	The sibling panel to figure \ref{EmptyFront} may be found in figure \ref{EmptyBlock}. As before, you may \texttt{Right click} on the white background to open the ``functions palette''. This is where you will spend most of your time in $\labview$, other than the help files that is. You thread together small function blocks to build the logic of your program. If you are reading this and can't find the block diagram panel, simply press \texttt{Ctrl-E}, this will switch from the front panel to the block diagram and vice versa. This is probably the most important hot-key in $\labview$ so learn it, you will often have to flip between the two windows.\\
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{EmptyBlock}
+		\caption{The void, even interstellar space has more going on than this panel.}
+		\label{EmptyBlock}
+	\end{figure}
 	\section{LabVIEW variables and you}
 	\subsection{Overview}
-	From your knowlage of mathematics, you understand the concept of a variable. This concept is of fundamental importance to all fields of computer science so let us take a slight detour before we dig further into LabVIEW.\\
+	From your knowlage of mathematics, you understand the concept of a variable. This concept is of fundamental importance to all fields of computer science so let us take a slight detour before we dig further into $\labview$.\\
 	\\
 	Variables are named containers in which we may store information. It is then possible to read from, or write to, this container using it's name. At any moment in time, there are several named variables in your head, for example: \texttt{cellphoneNumber, currentDate, amountOfCoffeeHadToday,} etc.\\
 	\\
 	With these examples, it is clear that some variables are not of the same type, i.e. saying ``I had 3 June 2022 coffees today'' makes no sense. You should know by now, or if you do not you will learn very soon, that computers are incredibly stupid and they will happily add 3 June 2022 to 072 543 7711 and give you a result. (The answer is 29 May 2045 by the way).\\
 	\\
-	In general, it is your job to tell the computer what type a variable is. This is not strictly true as many programming languages can infer the data type from your input, however for LabVIEW and programming languages such as \texttt{C} and \texttt{C++}, you are responsible.
+	In general, it is your job to tell the computer what type a variable is. This is not strictly true as many programming languages can infer the data type from your input, however for $\labview$ and programming languages such as \texttt{C} and \texttt{C++}, you are responsible.
 	\subsection{Variable Types}
 	\subsubsection{Boolean}
-	Perhaps the most fundamental variable type is the boolean, or bool for short. It consists of either yes or no, true or false, \texttt{1} or \texttt{0}, you get the picture. In LabVIEW, bools form the basis of nearly all your decision making code. It is represented as green icons, seen in figure \ref{boolFig}, on page \pageref{boolfig}.
+	Perhaps the most fundamental variable type is the boolean, or bool for short. It consists of either yes or no, true or false, \texttt{1} or \texttt{0}, you get the picture. In $\labview$, bools form the basis of nearly all your decision making code. It is represented as green icons, seen in figure \ref{boolFig}, on page \pageref{boolfig}.
 	\subsubsection{Floating Point}
 	Floating point variables hold decimal numbers, in an application this may be the value of a magnetic field, the temperature of a thermocouple, basically any number that you can think of that would fit into 64bits of memory (more on that if you do computational physics in honours physics). All floating point values are represented in Labview as orange icons, seen in figure \ref{floatFig}, on page \pageref{floatFig}.
 	\subsubsection{Integer}
-	The integer type is self explanatory. This is the only type of number which may be represented in LabVIEW as exact numbers and is ideal for comparison and counting. It is worth mentioning briefly that integers exist as two types namely signed and unsigned. Negative numbers are contained in signed integers, unsigned integers are strictly positive. The nuances of signedness are best left for the computational physics coarse in honours. Integer types are represented as blue icons in LabVIEW, see figure \ref{intFig} on page \pageref{intFig}.
+	The integer type is self explanatory. This is the only type of number which may be represented in $\labview$ as exact numbers and is ideal for comparison and counting. It is worth mentioning briefly that integers exist as two types namely signed and unsigned. Negative numbers are contained in signed integers, unsigned integers are strictly positive. The nuances of signedness are best left for the computational physics coarse in honours. Integer types are represented as blue icons in $\labview$, see figure \ref{intFig} on page \pageref{intFig}.
 	\subsubsection{Strings}
-	This line that you are reading is a string. Strings are made up of characters, itself a type of variable. Characters are not as important in LabVIEW as in other programming languages so they do not deserve their own subsection. Strings may be used to convey information to users, it may also be used to store information on your hard-disk. Strings are pink in LabVIEW, reference \ref{stringFig} on page \pageref{stringFig}.
+	This line that you are reading is a string. Strings are made up of characters, itself a type of variable. Characters are not as important in $\labview$ as in other programming languages so they do not deserve their own subsection. Strings may be used to convey information to users, it may also be used to store information on your hard-disk. Strings are pink in $\labview$, reference \ref{stringFig} on page \pageref{stringFig}.
 	\subsubsection{Arrays}
-	Arrays are homogenous sections of sequential memory. Any of the above data types may be formed into an array. This variable type allows you to reference a collection of data points as a single item. Unless you derive joy from naming thousands of individual variables, you should use arrays when working with more than a handful of data points. Arrays are indexed from 0 in LabVIEW, important if you have programmed in Fortran before. Arrays follow the colour of their contents in LabVIEW, i.e. a blue array contains only integers.
+	Arrays are homogenous sections of sequential memory. Any of the above data types may be formed into an array. This variable type allows you to reference a collection of data points as a single item. Unless you derive joy from naming thousands of individual variables, you should use arrays when working with more than a handful of data points. Arrays are indexed from 0 in $\labview$, important if you have programmed in Fortran before. Arrays follow the colour of their contents in $\labview$, i.e. a blue array contains only integers.
 	\subsubsection{Aggregate Types}
-	Variable types may be grouped together to form a new variable type, usually with some relationship among one another. In LabVIEW, these types are known as clusters, similar to structs from the \texttt{C} family of languages. We will leave clusters for now, they are only really useful once your programs start getting big.\\
+	Variable types may be grouped together to form a new variable type, usually with some relationship among one another. In $\labview$, these types are known as clusters, similar to structs from the \texttt{C} family of languages. We will leave clusters for now, they are only really useful once your programs start getting big.\\
+	\begin{figure}
+		\centering
+		\begin{subfigure}[b]{0.49\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{boolFig}
+			\caption{Boolean controls and constants.}
+			\label{boolFig}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.49\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{floatFig}
+			\caption{Floating point controls and constants.}
+			\label{floatFig}
+		\end{subfigure}
+		\vfill
+		\begin{subfigure}[b]{0.49\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{intFig}
+			\caption{Integer data types.}
+			\label{intFig}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.49\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{stringFig}
+			\caption{String data types}
+			\label{stringFig}
+		\end{subfigure}
+		\caption{Fundamental $\labview$ data types.}
+		\label{DataTypes}
+	\end{figure}
 	\section{Your First LabVIEW program}
 	\subsection{Problem statement}
 	We must create a program in which a user gives three integer values, \texttt{numberA},\texttt{numberB}, and \texttt{NumberC}. The program needs to compute and output the sum of \texttt{numberA} and \texttt{numberB} as well as indicate if this sum is larger than \texttt{numberC}.\\
 	\\
-	The rest of this section will show you in detail how such a program is made in LabVIEW, however it will not explain the details of the program in depth. This is left for later sections in chapter 2.\\%TODO reference chapter
+	The rest of this section will show you in detail how such a program is made in $\labview$, however it will not explain the details of the program in depth. This is left for later sections in chapter 2.\\%TODO reference chapter
 	\subsection{Implimentation}
 	\subsubsection{Front Panel}
 	You may think of the front panel as your scratch pad. What information does the user need to provide for our program and how may the computer display the outcome of a process?\\
@@ -121,7 +206,7 @@
 	\\
 	If you are not satisfied with your layout, you may \texttt{left click} and hold on the edges of a control and drag it to where you would like to to be. This might take some getting used too. Your cursor will change from a cross to a pointer when you hover over a part of a control which is allowed to be moved. %TODO This is not writen well I know
 	\subsubsection{Block Diagram}
-	While looking at your front panel, press \texttt{Ctrl-E} to flip to your block diagram. You would notice that what you have done on the front panel is reflected in the block diagram. Your inputs have little white arrows pointing out of the icon to the right. The outputs, also known as indicators in LabVIEW, have white arrows pointing into the icon on the left.\\
+	While looking at your front panel, press \texttt{Ctrl-E} to flip to your block diagram. You would notice that what you have done on the front panel is reflected in the block diagram. Your inputs have little white arrows pointing out of the icon to the right. The outputs, also known as indicators in $\labview$, have white arrows pointing into the icon on the left.\\
 	\\
 	You should move these icons so that the interface flows from left to right, that is inputs on the left and outputs on the right. You may move the icons like you have moved the front panel elements, just click, hold, and drag the icons to where you think they should live. See figure \ref{example1Block} for inspiration.\\
 	\\
