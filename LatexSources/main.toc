@@ -1,0 +1,17 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Welcome}{1}{}%
+\contentsline {subsubsection}{C Programming}{1}{}%
+\contentsline {subsubsection}{LabVIEW Programming}{2}{}%
+\contentsline {section}{\numberline {1.2}The LabVIEW Interface}{3}{}%
+\contentsline {subsection}{\numberline {1.2.1}Introduction}{3}{}%
+\contentsline {subsection}{\numberline {1.2.2}Block Diagram}{4}{}%
+\contentsline {section}{\numberline {1.3}LabVIEW variables and you}{4}{}%
+\contentsline {subsection}{\numberline {1.3.1}Overview}{4}{}%
+\contentsline {subsection}{\numberline {1.3.2}Variable Types}{4}{}%
+\contentsline {subsubsection}{Boolean}{4}{}%
+\contentsline {subsubsection}{Floating Point}{4}{}%
+\contentsline {subsubsection}{Integer}{5}{}%
+\contentsline {subsubsection}{Strings}{5}{}%
+\contentsline {subsubsection}{Arrays}{5}{}%
+\contentsline {subsubsection}{Aggregate Types}{5}{}%
+\contentsline {chapter}{\numberline {2}The Second Chapter}{7}{}%
