@@ -68,7 +68,13 @@
 	\\
 	Figure \ref{exampleFront1}, on page \pageref{exampleFront1}, shows one of the first front panels I have ever created along with the block diagram in figure \ref{exampleBlock1}. By the end of this course you will be able to understand exactly what is going on there so do not let it intimidate you. Assert dominance over your computer, lest it assert dominance over you. %TODO Maybe make this a CS Lesson?
 	\subsubsection{The Front Panel}
-	Figure \ref{EmptyFront} shows an empty front panel. 
+	Figure \ref{EmptyFront} shows an empty front panel. \texttt{Right click}ing anywhere on the grey grid will open a menu containing controls, known as the ``controls palette''. Do not be overwhelmed, given some time you will get a feel for where the most important controls are. As mentioned, and will be repeated throughout this book, explore the interface on your own.\\
+	\\
+	Here is a little secret, simply press \texttt{Ctrl+H}. This will open a floating window called ``Context Help'', your new life-line in LabVIEW. Hover over anything and it will give you some information about what you are looking at.  Pressing ``Detailed help'' takes you to the LabVIEW help files. You will spend a great deal of time reading these documents as you progress through your LabVIEW journey so you should know where to find it.\\
+	\\
+	If you figured out how to place down controls in LabVIEW, that is great, do not let the interface intimidate you. If you have not done so yet, we will go through the details in section \ref{HowToPlace}.
+	\subsubsection{The Block Diagram}
+	The sibling panel to figure \ref{EmptyFront} may be found in figure \ref{EmptyBlock}. As before, you may \texttt{Right click} on the white background to open the ``functions palette''. This is where you will spend most of your time in LabVIEW, other than the help files that is. You thread together small function blocks to build the logic of your program. If you are reading this and can't find the block diagram panel, simply press \texttt{Ctrl-E}, this will switch from the front panel to the block diagram and vice versa. This is probably the most important hot-key in LabVIEW so learn it, you will often have to flip between the two windows.\\
 	
 	\section{LabVIEW variables and you}
 	\subsection{Overview}
@@ -92,4 +98,33 @@
 	Arrays are homogenous sections of sequential memory. Any of the above data types may be formed into an array. This variable type allows you to reference a collection of data points as a single item. Unless you derive joy from naming thousands of individual variables, you should use arrays when working with more than a handful of data points. Arrays are indexed from 0 in LabVIEW, important if you have programmed in Fortran before. Arrays follow the colour of their contents in LabVIEW, i.e. a blue array contains only integers.
 	\subsubsection{Aggregate Types}
 	Variable types may be grouped together to form a new variable type, usually with some relationship among one another. In LabVIEW, these types are known as clusters, similar to structs from the \texttt{C} family of languages. We will leave clusters for now, they are only really useful once your programs start getting big.\\
+	\section{Your First LabVIEW program}
+	\subsection{Problem statement}
+	We must create a program in which a user gives three integer values, \texttt{numberA},\texttt{numberB}, and \texttt{NumberC}. The program needs to compute and output the sum of \texttt{numberA} and \texttt{numberB} as well as indicate if this sum is larger than \texttt{numberC}.\\
+	\\
+	The rest of this section will show you in detail how such a program is made in LabVIEW, however it will not explain the details of the program in depth. This is left for later sections in chapter 2.\\%TODO reference chapter
+	\subsection{Implimentation}
+	\subsubsection{Front Panel}
+	You may think of the front panel as your scratch pad. What information does the user need to provide for our program and how may the computer display the outcome of a process?\\
+	\\
+	Anywhere on the front panel, \texttt{right click} to show the control palette. Mouse over the top left folder called ``Numeric'', a new window will pop up. Drag your mouse into this window and select ``Numeric Control'' by clicking once on the icon. You will notice that your mouse cursor now changed to a little grab hand with an outline of the proposed control. Simply click where you would like this control to live.\\
+	\\
+	The name ``Numeric'' is not helpful to us. If the name is highlighted, white text in a black box, you may type a new name and it would replace the old one. Call this control ``numberA''. If the name is not highlighted, simply \texttt{double click} on the name until you see the black box with white text and then type ``numberA''. Once you have typed the name, \texttt{left click} anywhere on the background to make the change permanent. Figure \ref{blackboxtext} shows how selected text looks like and figure \ref{renamed} shows what you should have on your front panel.\\
+	\\
+	Repeat what you have just done two more times to create ``numberB'' and ``numberC''.\\
+	\\
+	For our resulting number, open the controls palette, go to ``Numeric'' and select the ``Numeric Indicator'' icon. Rename this to ``Result''.\\
+	\\
+	Finally, open the control palette again, this time go to the ``Boolean'' folder and select the ``Round LED''. You should place this close to your result indicator. You will start to notice that grouping controls together with regards to input and output makes it easier to understand the intent of your program. Lastly, rename this indicator to ``Result is greater than numberC?''.\\
+	\\
+	Your front panel should now look like the panel in figure \ref{example1Front} on page \pageref{example1Front}.\\
+	\\
+	If you are not satisfied with your layout, you may \texttt{left click} and hold on the edges of a control and drag it to where you would like to to be. This might take some getting used too. Your cursor will change from a cross to a pointer when you hover over a part of a control which is allowed to be moved. %TODO This is not writen well I know
+	\subsubsection{Block Diagram}
+	While looking at your front panel, press \texttt{Ctrl-E} to flip to your block diagram. You would notice that what you have done on the front panel is reflected in the block diagram. Your inputs have little white arrows pointing out of the icon to the right. The outputs, also known as indicators in LabVIEW, have white arrows pointing into the icon on the left.\\
+	\\
+	You should move these icons so that the interface flows from left to right, that is inputs on the left and outputs on the right. You may move the icons like you have moved the front panel elements, just click, hold, and drag the icons to where you think they should live. See figure \ref{example1Block} for inspiration.\\
+	\\
+	You are now ready to build the logic of your program. From our problem statement, we need to sum numberA and numberB. Both are numerical values so we go to the ``Numeric'' folder of the function palette. The first icon you see is the sum function. Place it somewhere in the middle of your inputs and outputs.\\
+	
 	
