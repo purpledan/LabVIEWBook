@@ -34,3 +34,5 @@
 \contentsline {section}{\numberline {3.1}Getting Started}{21}{}%
 \contentsline {section}{\numberline {3.2}Writing and Reading Ports}{21}{}%
 \contentsline {section}{\numberline {3.3}Quite Advanced Projects}{21}{}%
+\contentsline {chapter}{\numberline {A}Installing LabVIEW}{23}{}%
+\contentsline {chapter}{\numberline {B}Installing LiNX}{25}{}%
