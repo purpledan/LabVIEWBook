@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  24 JUL 2022 08:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  24 JUL 2022 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -534,22 +534,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  (./TeX_files/chapter02.tex
 Chapter 2.
-) [19
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+[19
 
 
 
 
-]
+]) [20]
 \openout2 = `./TeX_files/chapter03.aux'.
 
- (./TeX_files/chapter03.tex [20
+ (./TeX_files/chapter03.tex
+Chapter 3.
+) [21
 
 
 
 
 ]
-Chapter 3.
-) [21]
 \openout2 = `./TeX_files/Appendix.aux'.
 
  (./TeX_files/Appendix.tex [22
@@ -593,7 +603,7 @@ e1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
 public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
 ublic/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/cm-super/sftt1000.pfb>
-Output written on main.pdf (30 pages, 1029389 bytes).
+Output written on main.pdf (30 pages, 1031891 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
