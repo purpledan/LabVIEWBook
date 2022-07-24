@@ -16,27 +16,29 @@
 \contentsline {subsubsection}{Strings}{8}{}%
 \contentsline {subsubsection}{Arrays}{9}{}%
 \contentsline {subsubsection}{Aggregate Types}{9}{}%
-\contentsline {subsection}{\numberline {1.3.3}A word on Accessibility}{10}{}%
-\contentsline {subsubsection}{Colour Blindness}{10}{}%
-\contentsline {subsubsection}{Vision Difficulty}{10}{}%
 \contentsline {section}{\numberline {1.4}Your First LabVIEW program}{10}{}%
 \contentsline {subsection}{\numberline {1.4.1}Problem statement}{10}{}%
-\contentsline {subsection}{\numberline {1.4.2}Implimentation}{11}{}%
-\contentsline {subsubsection}{Front Panel}{11}{}%
+\contentsline {subsection}{\numberline {1.4.2}Implimentation}{10}{}%
+\contentsline {subsubsection}{Front Panel}{10}{}%
 \contentsline {subsubsection}{Block Diagram}{12}{}%
-\contentsline {subsection}{\numberline {1.4.3}Testing your program}{16}{}%
-\contentsline {subsection}{\numberline {1.4.4}Review}{18}{}%
-\contentsline {section}{\numberline {1.5}Mini Projects}{19}{}%
-\contentsline {chapter}{\numberline {2}Computing Fundamentals in LabVIEW}{21}{}%
-\contentsline {section}{\numberline {2.1}Decision making structures}{21}{}%
-\contentsline {subsection}{\numberline {2.1.1}Case-Structures}{22}{}%
+\contentsline {subsection}{\numberline {1.4.3}Testing your program}{15}{}%
+\contentsline {subsection}{\numberline {1.4.4}Review}{16}{}%
+\contentsline {subsection}{\numberline {1.4.5}A word on Accessibility}{16}{}%
+\contentsline {subsubsection}{Colour Blindness}{16}{}%
+\contentsline {subsubsection}{Vision Difficulty}{17}{}%
+\contentsline {section}{\numberline {1.5}Mini Projects}{18}{}%
+\contentsline {chapter}{\numberline {2}Computing Fundamentals in LabVIEW}{19}{}%
+\contentsline {section}{\numberline {2.1}Decision making structures}{19}{}%
+\contentsline {subsection}{\numberline {2.1.1}Case Structures}{20}{}%
+\contentsline {subsection}{\numberline {2.1.2}Ternary operators}{21}{}%
 \contentsline {section}{\numberline {2.2}Code looping structures}{22}{}%
-\contentsline {section}{\numberline {2.3}Aggregate data types}{22}{}%
-\contentsline {section}{\numberline {2.4}Creating functions}{22}{}%
-\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{22}{}%
-\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{23}{}%
-\contentsline {section}{\numberline {3.1}Getting Started}{23}{}%
-\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{23}{}%
-\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{23}{}%
-\contentsline {chapter}{\numberline {A}Installing LabVIEW}{25}{}%
-\contentsline {chapter}{\numberline {B}Installing LiNX}{27}{}%
+\contentsline {subsection}{\numberline {2.2.1}For Loops}{23}{}%
+\contentsline {section}{\numberline {2.3}Aggregate data types}{24}{}%
+\contentsline {section}{\numberline {2.4}Creating functions}{24}{}%
+\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{24}{}%
+\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{25}{}%
+\contentsline {section}{\numberline {3.1}Getting Started}{25}{}%
+\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{25}{}%
+\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{25}{}%
+\contentsline {chapter}{\numberline {A}Installing LabVIEW}{27}{}%
+\contentsline {chapter}{\numberline {B}Installing LiNX}{29}{}%
