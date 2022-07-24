@@ -36,9 +36,9 @@
 \contentsline {section}{\numberline {2.3}Aggregate data types}{24}{}%
 \contentsline {section}{\numberline {2.4}Creating functions}{24}{}%
 \contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{24}{}%
-\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{25}{}%
-\contentsline {section}{\numberline {3.1}Getting Started}{25}{}%
-\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{25}{}%
-\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{25}{}%
-\contentsline {chapter}{\numberline {A}Installing LabVIEW}{27}{}%
-\contentsline {chapter}{\numberline {B}Installing LiNX}{29}{}%
+\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{27}{}%
+\contentsline {section}{\numberline {3.1}Getting Started}{27}{}%
+\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{27}{}%
+\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{27}{}%
+\contentsline {chapter}{\numberline {A}Installing LabVIEW}{29}{}%
+\contentsline {chapter}{\numberline {B}Installing LiNX}{31}{}%

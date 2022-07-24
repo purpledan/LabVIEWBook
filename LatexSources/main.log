@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  24 JUL 2022 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  24 JUL 2022 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,100 +595,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
  []
 
 [22 <./Figures//ch2eg2.png>]
+<./Figures//ch2eg3.png, id=140, 595.72563pt x 369.38pt>
+File: ./Figures//ch2eg3.png Graphic file (type png)
+<use ./Figures//ch2eg3.png>
+Package pdftex.def Info: ./Figures//ch2eg3.png  used on input line 54.
+(pdftex.def)             Requested size: 390.0pt x 241.81885pt.
 
-LaTeX Warning: Reference `ch2eg3' on page 23 undefined on input line 51.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-
-LaTeX Warning: Reference `ch2eg4' on page 23 undefined on input line 61.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-
- []
-
+<./Figures//ch2eg4.png, id=141, 595.72563pt x 369.38pt>
+File: ./Figures//ch2eg4.png Graphic file (type png)
+<use ./Figures//ch2eg4.png>
+Package pdftex.def Info: ./Figures//ch2eg4.png  used on input line 70.
+(pdftex.def)             Requested size: 390.0pt x 241.81885pt.
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-) [24]
+) [24 <./Figures//ch2eg3.png>] [25 <./Figures//ch2eg4.png>]
 \openout2 = `./TeX_files/chapter03.aux'.
 
- (./TeX_files/chapter03.tex
-Chapter 3.
-) [25
+
+(./TeX_files/chapter03.tex [26
 
 
 
 
 ]
+Chapter 3.
+) [27]
 \openout2 = `./TeX_files/Appendix.aux'.
 
- (./TeX_files/Appendix.tex [26
+ (./TeX_files/Appendix.tex [28
 
 
 
 
 ]
 Appendix A.
-[27] [28
+[29] [30
 
 ]
 Appendix B.
-) [29] [30
+) [31] [32
 
 
 
 ] (./main.aux (./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux) (./TeX_fi
-les/chapter03.aux) (./TeX_files/Appendix.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+les/chapter03.aux) (./TeX_files/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 7461 strings out of 478994
- 124947 string characters out of 5858184
- 1018769 words of memory out of 5000000
- 24880 multiletter control sequences out of 15000+600000
+ 7477 strings out of 478994
+ 125261 string characters out of 5858184
+ 1018859 words of memory out of 5000000
+ 24896 multiletter control sequences out of 15000+600000
  414343 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,74p,726b,1578s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
-2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (34 pages, 1280301 bytes).
+{/usr/local/texlive/2021/texmf-
+dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
+m-super/sftt1000.pfb>
+Output written on main.pdf (36 pages, 1403759 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 230 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

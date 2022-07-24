@@ -49,6 +49,12 @@ The flow of information in $\labview$ is rather unconventional, this will be ela
 
 \subsection{For Loops}
 A for loop executes a predetermined amount of times. Figure \ref{ch2eg3} is perhaps the most simple, yet interesting, loop possible in $\labview$. You set the number of times the loop should run in the ``Number of times'' control and the loop shows you the iteration step number along with a random floating point number between 0 \& 1. The little watch function in the bottom right corner is to slow the loop execution speed to twice every second so you are able to observe the number generated.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2eg3}
+	\caption{A simple loop that ejects random numbers, two every second.}
+	\label{ch2eg3}
+\end{figure}
 
 The example is heavily constrained however, there is no way for the information generated to be stored in memory so there is no knowlage for what the random number was in the previous iteration let alone what the series of generated numbers were.\\
 
@@ -59,6 +65,12 @@ The Fibonacci sequence, defined by the recurrence relation:
 	F_0=0,\quad F_1=1,\quad F_n= F_{n-1} + F_{n-2}
 \end{equation*}
 An implementation of this may be found in figure \ref{ch2eg4}. On the right hand side of the loop structure is a little blue arrow in a box, this is the terminal where you value the number you want available to the next loop iteration. To add a shift register to a loop, \texttt{right click} on any side of the loop frame and select ``Add Shift Register'' from the drop-down menu.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2eg4}
+	\caption{A loop that displays the Fibonacci numbers, updating every second.}
+	\label{ch2eg4}
+\end{figure}
 
 You may notice in that example that the left hand side has two little arrows stacked on top of each other, this gives you access to the previous iteration values. In this case the top arrow is the value of iteration n-2 and the bottom arrow is the value of iteration n-1. You can extend or reduce the number of iterations available by clicking and dragging the bottom edges of the shift register.\\
 \section{Aggregate data types}
