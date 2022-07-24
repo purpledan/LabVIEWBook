@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  24 JUL 2022 10:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  24 JUL 2022 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -240,15 +240,13 @@ Overfull \hbox (11.38055pt too wide) in paragraph at lines 51--52
 n-NonCommercial
  []
 
-[2] (./main.toc)
+[2] (./main.toc [3
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [3
-
-] [4
-
-]
+ [4]
 \openout2 = `./TeX_files/chapter01.aux'.
 
  (./TeX_files/chapter01.tex
@@ -280,6 +278,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
  []
 
 [1
+
 
 
 ] [2]
@@ -381,146 +380,152 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./Figures//boolFig.png> <./Figures//floatFig.png> <./Figures//intFig.png> 
 <./Figures//stringFig.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
+95.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 195.
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-
- []
-
-<./Figures//blackboxtext.png, id=76, 198.7425pt x 74.2775pt>
-File: ./Figures//blackboxtext.png Graphic file (type png)
-<use ./Figures//blackboxtext.png>
-Package pdftex.def Info: ./Figures//blackboxtext.png  used on input line 208.
-(pdftex.def)             Requested size: 195.0pt x 72.88098pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
 [10]
-<./Figures//example1Front.png, id=80, 607.77063pt x 388.45125pt>
-File: ./Figures//example1Front.png Graphic file (type png)
-<use ./Figures//example1Front.png>
-Package pdftex.def Info: ./Figures//example1Front.png  used on input line 220.
-(pdftex.def)             Requested size: 390.0pt x 249.27179pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
 
-Underfull \vbox (badness 2409) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
- [11 <./Figures//blackboxtext.png> <./Figures//example1Front.png>]
+ []
+
+<./Figures//blackboxtext.png, id=80, 198.7425pt x 74.2775pt>
+File: ./Figures//blackboxtext.png Graphic file (type png)
+<use ./Figures//blackboxtext.png>
+Package pdftex.def Info: ./Figures//blackboxtext.png  used on input line 217.
+(pdftex.def)             Requested size: 195.0pt x 72.88098pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+[11 <./Figures//blackboxtext.png>]
+<./Figures//example1Front.png, id=84, 607.77063pt x 388.45125pt>
+File: ./Figures//example1Front.png Graphic file (type png)
+<use ./Figures//example1Front.png>
+Package pdftex.def Info: ./Figures//example1Front.png  used on input line 229.
+(pdftex.def)             Requested size: 390.0pt x 249.27179pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
 <./Figures//example1Block.png, id=85, 599.74063pt x 388.45125pt>
 File: ./Figures//example1Block.png Graphic file (type png)
 <use ./Figures//example1Block.png>
-Package pdftex.def Info: ./Figures//example1Block.png  used on input line 232.
+Package pdftex.def Info: ./Figures//example1Block.png  used on input line 241.
 (pdftex.def)             Requested size: 390.0pt x 252.60886pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+[12 <./Figures//example1Front.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-<./Figures//wireinprogress.png, id=86, 205.26688pt x 147.55125pt>
+<./Figures//wireinprogress.png, id=90, 205.26688pt x 147.55125pt>
 File: ./Figures//wireinprogress.png Graphic file (type png)
 <use ./Figures//wireinprogress.png>
-Package pdftex.def Info: ./Figures//wireinprogress.png  used on input line 242.
+Package pdftex.def Info: ./Figures//wireinprogress.png  used on input line 251.
 
 (pdftex.def)             Requested size: 195.0pt x 140.17062pt.
-[12 <./Figures//example1Block.png>]
 <./Figures//example2Block.png, id=91, 599.74063pt x 388.45125pt>
 File: ./Figures//example2Block.png Graphic file (type png)
 <use ./Figures//example2Block.png>
-Package pdftex.def Info: ./Figures//example2Block.png  used on input line 250.
+Package pdftex.def Info: ./Figures//example2Block.png  used on input line 259.
 (pdftex.def)             Requested size: 390.0pt x 252.60886pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
-<./Figures//context1Help.png, id=92, 219.82124pt x 198.7425pt>
+[13 <./Figures//example1Block.png>] [14 <./Figures//wireinprogress.png> <./Figu
+res//example2Block.png>]
+<./Figures//context1Help.png, id=100, 219.82124pt x 198.7425pt>
 File: ./Figures//context1Help.png Graphic file (type png)
 <use ./Figures//context1Help.png>
-Package pdftex.def Info: ./Figures//context1Help.png  used on input line 260.
+Package pdftex.def Info: ./Figures//context1Help.png  used on input line 269.
 (pdftex.def)             Requested size: 195.0pt x 176.3071pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-[13 <./Figures//wireinprogress.png>] [14 <./Figures//example2Block.png> <./Figu
-res//context1Help.png>]
-<./Figures//example3Block.png, id=102, 599.74063pt x 388.45125pt>
+<./Figures//example3Block.png, id=101, 599.74063pt x 388.45125pt>
 File: ./Figures//example3Block.png Graphic file (type png)
 <use ./Figures//example3Block.png>
-Package pdftex.def Info: ./Figures//example3Block.png  used on input line 270.
+Package pdftex.def Info: ./Figures//example3Block.png  used on input line 279.
 (pdftex.def)             Requested size: 390.0pt x 252.60886pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
-<./Figures//exampleFrontTrue.png, id=103, 607.77063pt x 388.45125pt>
+
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [15 <./Figures//context1Help.png>]
+<./Figures//exampleFrontTrue.png, id=107, 607.77063pt x 388.45125pt>
 File: ./Figures//exampleFrontTrue.png Graphic file (type png)
 <use ./Figures//exampleFrontTrue.png>
-Package pdftex.def Info: ./Figures//exampleFrontTrue.png  used on input line 28
-1.
+Package pdftex.def Info: ./Figures//exampleFrontTrue.png  used on input line 29
+0.
 (pdftex.def)             Requested size: 390.0pt x 249.27179pt.
-<./Figures//exampleFrontFalse.png, id=104, 607.77063pt x 388.45125pt>
+<./Figures//exampleFrontFalse.png, id=108, 607.77063pt x 388.45125pt>
 File: ./Figures//exampleFrontFalse.png Graphic file (type png)
 <use ./Figures//exampleFrontFalse.png>
 Package pdftex.def Info: ./Figures//exampleFrontFalse.png  used on input line 2
-87.
+96.
 (pdftex.def)             Requested size: 390.0pt x 249.27179pt.
-[15 <./Figures//example3Block.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <./Figures//exampleFrontTrue.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
+ [16 <./Figures//example3Block.png>] [17 <./Figures//exampleFrontTrue.png> <./F
+igures//exampleFrontFalse.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
-
- []
-
-[17 <./Figures//exampleFrontFalse.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+ [18]
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
 
  []
 
@@ -529,10 +534,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
-) [18]
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+) [19]
 \openout2 = `./TeX_files/chapter02.aux'.
 
- (./TeX_files/chapter02.tex
+ (./TeX_files/chapter02.tex [20
+
+
+
+
+]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -544,17 +569,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[19
-
-
-
-
-]) [20]
+[21]) [22]
 \openout2 = `./TeX_files/chapter03.aux'.
 
  (./TeX_files/chapter03.tex
 Chapter 3.
-) [21
+) [23
 
 
 
@@ -562,28 +582,28 @@ Chapter 3.
 ]
 \openout2 = `./TeX_files/Appendix.aux'.
 
- (./TeX_files/Appendix.tex [22
+ (./TeX_files/Appendix.tex [24
 
 
 
 
 ]
 Appendix A.
-[23] [24
+[25] [26
 
 ]
 Appendix B.
-) [25] [26
+) [27] [28
 
 
 
 ] (./main.aux (./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux) (./TeX_fi
 les/chapter03.aux) (./TeX_files/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 7415 strings out of 478994
- 124063 string characters out of 5858184
- 1018633 words of memory out of 5000000
- 24837 multiletter control sequences out of 15000+600000
+ 7432 strings out of 478994
+ 124359 string characters out of 5858184
+ 1018634 words of memory out of 5000000
+ 24851 multiletter control sequences out of 15000+600000
  414343 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,74p,726b,1578s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -603,10 +623,10 @@ e1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
 public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
 ublic/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/cm-super/sftt1000.pfb>
-Output written on main.pdf (30 pages, 1031891 bytes).
+Output written on main.pdf (32 pages, 1034927 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 200 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
