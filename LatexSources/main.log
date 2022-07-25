@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  25 JUL 2022 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  25 JUL 2022 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,25 +353,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 <./Figures//boolFig.png, id=64, 223.83624pt x 73.77562pt>
 File: ./Figures//boolFig.png Graphic file (type png)
 <use ./Figures//boolFig.png>
-Package pdftex.def Info: ./Figures//boolFig.png  used on input line 162.
+Package pdftex.def Info: ./Figures//boolFig.png  used on input line 163.
 (pdftex.def)             Requested size: 191.10214pt x 62.98761pt.
 <./Figures//floatFig.png, id=65, 212.29312pt x 82.80937pt>
 File: ./Figures//floatFig.png Graphic file (type png)
 <use ./Figures//floatFig.png>
-Package pdftex.def Info: ./Figures//floatFig.png  used on input line 169.
+Package pdftex.def Info: ./Figures//floatFig.png  used on input line 170.
 (pdftex.def)             Requested size: 191.10214pt x 74.54668pt.
 <./Figures//intFig.png, id=66, 222.8325pt x 101.37875pt>
 File: ./Figures//intFig.png Graphic file (type png)
 <use ./Figures//intFig.png>
-Package pdftex.def Info: ./Figures//intFig.png  used on input line 176.
+Package pdftex.def Info: ./Figures//intFig.png  used on input line 177.
 (pdftex.def)             Requested size: 191.10214pt x 86.94424pt.
 <./Figures//stringFig.png, id=67, 208.78pt x 101.88063pt>
 File: ./Figures//stringFig.png Graphic file (type png)
 <use ./Figures//stringFig.png>
-Package pdftex.def Info: ./Figures//stringFig.png  used on input line 183.
+Package pdftex.def Info: ./Figures//stringFig.png  used on input line 184.
 (pdftex.def)             Requested size: 191.10214pt x 93.26027pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
@@ -380,37 +380,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./Figures//boolFig.png> <./Figures//floatFig.png> <./Figures//intFig.png> 
 <./Figures//stringFig.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 <./Figures//blackboxtext.png, id=76, 198.7425pt x 74.2775pt>
 File: ./Figures//blackboxtext.png Graphic file (type png)
 <use ./Figures//blackboxtext.png>
-Package pdftex.def Info: ./Figures//blackboxtext.png  used on input line 208.
+Package pdftex.def Info: ./Figures//blackboxtext.png  used on input line 209.
 (pdftex.def)             Requested size: 195.0pt x 72.88098pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
@@ -418,10 +418,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--216
 <./Figures//example1Front.png, id=80, 607.77063pt x 388.45125pt>
 File: ./Figures//example1Front.png Graphic file (type png)
 <use ./Figures//example1Front.png>
-Package pdftex.def Info: ./Figures//example1Front.png  used on input line 220.
+Package pdftex.def Info: ./Figures//example1Front.png  used on input line 221.
 (pdftex.def)             Requested size: 390.0pt x 249.27179pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
@@ -432,37 +432,37 @@ Underfull \vbox (badness 2409) has occurred while \output is active []
 <./Figures//example1Block.png, id=85, 599.74063pt x 388.45125pt>
 File: ./Figures//example1Block.png Graphic file (type png)
 <use ./Figures//example1Block.png>
-Package pdftex.def Info: ./Figures//example1Block.png  used on input line 232.
+Package pdftex.def Info: ./Figures//example1Block.png  used on input line 233.
 (pdftex.def)             Requested size: 390.0pt x 252.60886pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
 <./Figures//wireinprogress.png, id=86, 205.26688pt x 147.55125pt>
 File: ./Figures//wireinprogress.png Graphic file (type png)
 <use ./Figures//wireinprogress.png>
-Package pdftex.def Info: ./Figures//wireinprogress.png  used on input line 242.
+Package pdftex.def Info: ./Figures//wireinprogress.png  used on input line 243.
 
 (pdftex.def)             Requested size: 195.0pt x 140.17062pt.
 [12 <./Figures//example1Block.png>]
 <./Figures//example2Block.png, id=91, 599.74063pt x 388.45125pt>
 File: ./Figures//example2Block.png Graphic file (type png)
 <use ./Figures//example2Block.png>
-Package pdftex.def Info: ./Figures//example2Block.png  used on input line 250.
+Package pdftex.def Info: ./Figures//example2Block.png  used on input line 251.
 (pdftex.def)             Requested size: 390.0pt x 252.60886pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 <./Figures//context1Help.png, id=92, 219.82124pt x 198.7425pt>
 File: ./Figures//context1Help.png Graphic file (type png)
 <use ./Figures//context1Help.png>
-Package pdftex.def Info: ./Figures//context1Help.png  used on input line 260.
+Package pdftex.def Info: ./Figures//context1Help.png  used on input line 261.
 (pdftex.def)             Requested size: 195.0pt x 176.3071pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
@@ -471,10 +471,10 @@ res//context1Help.png>]
 <./Figures//example3Block.png, id=102, 599.74063pt x 388.45125pt>
 File: ./Figures//example3Block.png Graphic file (type png)
 <use ./Figures//example3Block.png>
-Package pdftex.def Info: ./Figures//example3Block.png  used on input line 270.
+Package pdftex.def Info: ./Figures//example3Block.png  used on input line 271.
 (pdftex.def)             Requested size: 390.0pt x 252.60886pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
@@ -482,53 +482,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--277
 File: ./Figures//exampleFrontTrue.png Graphic file (type png)
 <use ./Figures//exampleFrontTrue.png>
 Package pdftex.def Info: ./Figures//exampleFrontTrue.png  used on input line 28
-1.
+2.
 (pdftex.def)             Requested size: 390.0pt x 249.27179pt.
 <./Figures//exampleFrontFalse.png, id=104, 607.77063pt x 388.45125pt>
 File: ./Figures//exampleFrontFalse.png Graphic file (type png)
 <use ./Figures//exampleFrontFalse.png>
 Package pdftex.def Info: ./Figures//exampleFrontFalse.png  used on input line 2
-87.
+88.
 (pdftex.def)             Requested size: 390.0pt x 249.27179pt.
 [15 <./Figures//example3Block.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
 [16 <./Figures//exampleFrontTrue.png>]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 3
-01.
+02.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 301.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 302.
 
 Underfull \vbox (badness 1859) has occurred while \output is active []
 
  [17 <./Figures//exampleFrontFalse.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--311
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--318
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
@@ -636,88 +636,184 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
  []
 
 [24 <./Figures//ch2eg3.png>]
+<./Figures//ch2eg5.png, id=152, 595.72563pt x 369.38pt>
+File: ./Figures//ch2eg5.png Graphic file (type png)
+<use ./Figures//ch2eg5.png>
+Package pdftex.def Info: ./Figures//ch2eg5.png  used on input line 87.
+(pdftex.def)             Requested size: 390.0pt x 241.81885pt.
 
-LaTeX Warning: Reference `ch2eg5' on page 25 undefined on input line 84.
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+<./Figures//stopIfTrue.png, id=153, 58.2175pt x 37.13875pt>
+File: ./Figures//stopIfTrue.png Graphic file (type png)
+<use ./Figures//stopIfTrue.png>
+Package pdftex.def Info: ./Figures//stopIfTrue.png  used on input line 99.
+(pdftex.def)             Requested size: 155.99762pt x 99.53983pt.
+<./Figures//contIfTrue.png, id=154, 61.22874pt x 47.17625pt>
+File: ./Figures//contIfTrue.png Graphic file (type png)
+<use ./Figures//contIfTrue.png>
+Package pdftex.def Info: ./Figures//contIfTrue.png  used on input line 105.
+(pdftex.def)             Requested size: 155.99762pt x 120.21358pt.
+[25 <./Figures//ch2eg4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+[26 <./Figures//ch2eg5.png>]
+<./Figures//createNumArrayConst.png, id=163, 98.86937pt x 67.25125pt>
+File: ./Figures//createNumArrayConst.png Graphic file (type png)
+<use ./Figures//createNumArrayConst.png>
+Package pdftex.def Info: ./Figures//createNumArrayConst.png  used on input line
+ 124.
+(pdftex.def)             Requested size: 155.99762pt x 106.12032pt.
+<./Figures//numArrayConst.png, id=164, 100.87688pt x 67.25125pt>
+File: ./Figures//numArrayConst.png Graphic file (type png)
+<use ./Figures//numArrayConst.png>
+Package pdftex.def Info: ./Figures//numArrayConst.png  used on input line 131.
+(pdftex.def)             Requested size: 155.99762pt x 103.99924pt.
+<./Figures//ch2SimpleArrayBlock.png, id=165, 594.22pt x 368.87813pt>
+File: ./Figures//ch2SimpleArrayBlock.png Graphic file (type png)
+<use ./Figures//ch2SimpleArrayBlock.png>
+Package pdftex.def Info: ./Figures//ch2SimpleArrayBlock.png  used on input line
+ 145.
+(pdftex.def)             Requested size: 390.0pt x 242.11507pt.
+<./Figures//ch2SimpleArrayFront.png, id=166, 596.72937pt x 367.87437pt>
+File: ./Figures//ch2SimpleArrayFront.png Graphic file (type png)
+<use ./Figures//ch2SimpleArrayFront.png>
+Package pdftex.def Info: ./Figures//ch2SimpleArrayFront.png  used on input line
+ 151.
+(pdftex.def)             Requested size: 390.0pt x 240.429pt.
+ [27 <./Figures//stopIfTrue.png> <./Figures//contIfTrue.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+<./Figures//ch2IndexArrayBlock.png, id=173, 594.22pt x 368.87813pt>
+File: ./Figures//ch2IndexArrayBlock.png Graphic file (type png)
+<use ./Figures//ch2IndexArrayBlock.png>
+Package pdftex.def Info: ./Figures//ch2IndexArrayBlock.png  used on input line 
+162.
+(pdftex.def)             Requested size: 390.0pt x 242.11507pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-[25 <./Figures//ch2eg4.png>]) [26]
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+[28 <./Figures//createNumArrayConst.png> <./Figures//numArrayConst.png>]
+[29 <./Figures//ch2SimpleArrayBlock.png> <./Figures//ch2SimpleArrayFront.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+<./Figures//ch2IndexArrayFront.png, id=182, 596.72937pt x 367.87437pt>
+File: ./Figures//ch2IndexArrayFront.png Graphic file (type png)
+<use ./Figures//ch2IndexArrayFront.png>
+Package pdftex.def Info: ./Figures//ch2IndexArrayFront.png  used on input line 
+180.
+(pdftex.def)             Requested size: 390.0pt x 240.429pt.
+<./Figures//ch2eg6Block.png, id=183, 595.72563pt x 369.38pt>
+File: ./Figures//ch2eg6Block.png Graphic file (type png)
+<use ./Figures//ch2eg6Block.png>
+Package pdftex.def Info: ./Figures//ch2eg6Block.png  used on input line 188.
+(pdftex.def)             Requested size: 390.0pt x 241.81885pt.
+<./Figures//ch2eg6Front.png, id=184, 595.22375pt x 369.38pt>
+File: ./Figures//ch2eg6Front.png Graphic file (type png)
+<use ./Figures//ch2eg6Front.png>
+Package pdftex.def Info: ./Figures//ch2eg6Front.png  used on input line 194.
+(pdftex.def)             Requested size: 390.0pt x 242.02176pt.
+<./Figures//ch2eg7.png, id=185, 595.72563pt x 369.38pt>
+File: ./Figures//ch2eg7.png Graphic file (type png)
+<use ./Figures//ch2eg7.png>
+Package pdftex.def Info: ./Figures//ch2eg7.png  used on input line 202.
+(pdftex.def)             Requested size: 390.0pt x 241.81885pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30 <./Figures//ch2IndexArrayBlock.png>] [31 <./Figures//ch2IndexArrayFront.pn
+g> <./Figures//ch2eg6Block.png>] [32 <./Figures//ch2eg6Front.png> <./Figures//c
+h2eg7.png>] [33]
 \openout2 = `./TeX_files/chapter03.aux'.
 
- (./TeX_files/chapter03.tex
-Chapter 3.
-) [27
+ (./TeX_files/chapter03.tex [34
 
 
 
 
 ]
+Chapter 3.
+) [35]
 \openout2 = `./TeX_files/Appendix.aux'.
 
- (./TeX_files/Appendix.tex [28
+ (./TeX_files/Appendix.tex [36
 
 
 
 
 ]
 Appendix A.
-[29] [30
+[37] [38
 
 ]
 Appendix B.
-) [31] [32
+) [39] [40
 
 
 
 ] (./main.aux (./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux) (./TeX_fi
-les/chapter03.aux) (./TeX_files/Appendix.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+les/chapter03.aux) (./TeX_files/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 7478 strings out of 478994
- 125269 string characters out of 5858184
- 1018859 words of memory out of 5000000
- 24897 multiletter control sequences out of 15000+600000
+ 7591 strings out of 478994
+ 128158 string characters out of 5858184
+ 1019582 words of memory out of 5000000
+ 25010 multiletter control sequences out of 15000+600000
  414343 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,74p,726b,1578s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
-2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (36 pages, 1413164 bytes).
+{/usr/local/texlive/2021/texmf-
+dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
+-super/sftt1000.pfb>
+Output written on main.pdf (44 pages, 2071269 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
+ 284 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

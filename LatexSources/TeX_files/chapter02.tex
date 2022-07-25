@@ -81,15 +81,128 @@ The indicator wired to the little blue \texttt{i} gives you access to the curren
 \subsection{While Loops}
 Suppose your program needs to monitor a temperature sensor and it requires the temperature to be above some set point before it turns on a fan, say. You can not know when this temperature threshold is reached, if it is ever ever reached. In such a case, a while loop allows us to execute some code only leaving the loop once some condition is met. If the condition is never met, then the loop never ends.\\
 
-Figure \ref{ch2eg5} is the previous Fibonacci sequence program modified to use a while loop instead. Gone is the little blue \texttt{N} in the top left corner of the loop. Instead, a little red circle is present at the bottom right corner of the loop. This is the conditional terminal\\
+Figure \ref{ch2eg5} is the previous Fibonacci sequence program modified to use a while loop instead. Gone is the little blue \texttt{N} in the top left corner of the loop. Instead, a little red octagon is present at the bottom right corner of the loop. This is the conditional terminal\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2eg5}
+	\caption{A loop that displays the Fibonacci numbers less than 100, updating every second.}
+	\label{ch2eg5}
+\end{figure}
 
-In this example, if a number in the sequence is greater than $100$, the comparison function sends a ``true'' value to the condition terminal which causes the loop to terminate. If this is slightly confusing, just remember ``Red means stop!. \\
+In this example, if a number in the sequence is greater than $100$, the comparison function sends a ``true'' value to the condition terminal which causes the loop to terminate. If this is slightly confusing, just remember ``Red means stop!.\\
 
-If you \texttt{right click} on the condition terminal, you may change it to a ``if true'' condition. In this case, the while loop will only terminate when it receives a ``false'' value. Conveniently, the terminal changes to a green circular arrow, in other words ``Green means go!.\\
+If you \texttt{right click} on the condition terminal, you may change it to a ``Continue if true'' condition. In this case, the while loop will only terminate when it receives a ``false'' value. Conveniently, the terminal changes to a green circular arrow, in other words ``Green means go!. Figure \ref{whileCond} shows the two available condition types side by side. Yes that is a little octagon stop sign, it took me almost 5 years to notice that.\\
+\begin{figure} %TODO Fix the condition figures to be the same size
+	\centering
+	\begin{subfigure}[b]{0.40\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{stopIfTrue}
+		\caption{The ``stop if true'' while loop condition terminal.}
+	\end{subfigure}
+	\hfil
+	\begin{subfigure}[b]{0.40\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{contIfTrue}
+		\caption{The ``continue if true'' while loop condition terminal}
+	\end{subfigure}
+	\caption{The two available while loop conditions, also notice how the edge of the frame makes a little arrow.}
+	\label{whileCond}
+\end{figure}
 
-Much like in other programming languages, infinite loops are considered unwanted behaviour. While loops must have their conditional terminals wired, even if your program would run for days or weeks on end, it should have a button to safely exit its execution. This will become more apparent in Chapter 3 where we will be programming hardware, other than your computer that is.
+Much like in other programming languages, infinite loops are considered unwanted behaviour. While loops must have their conditional terminals wired, even if your program would run for days or weeks on end, it should have a button to safely exit its execution. This will become more apparent in Chapter 3 where we will be programming hardware, other than your computer that is.\\
+
 \section{Aggregate data types}
+From here on out, the training wheels are off. The concept of an array is simple, the explanation in section \ref{ch1Arrays} is as detailed as needed and will not be repeated here. Working with arrays in $\labview$ is tricky however, in the next few pages we will dissect this creature and reveal some of the more ugly sides to this programming language.\\
 
+\subsection{Arrays}
+\subsubsection{Creation}
+Technically an array is also a type of structure in $\labview$. In the block diagram view, a placed array constant contains nothing, not even a type. You provide the type by placing a constant inside the array box. This is seen preformed in figure \ref{createNumArrayConst}. In this particular case, an integer constant creates an empty integer array, seen in figure \ref{numArrayConst}.\\
+\begin{figure} %TODO Fix the condition figures to be the same size
+	\centering
+	\begin{subfigure}[b]{0.40\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{createNumArrayConst}
+		\caption{An empty array constant, the integer constant has not been placed yet.}
+		\label{createNumArrayConst}
+	\end{subfigure}
+	\hfil
+	\begin{subfigure}[b]{0.40\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{numArrayConst}
+		\caption{An empty integer array constant, expanded to show two elements.}
+		\label{numArrayConst}
+	\end{subfigure}
+	\caption{Creating an array constant.}
+	\label{arrayConsts}
+\end{figure}
+
+The two little blue terminals in figure \ref{numArrayConst} are drag points to change the amount of visible elements in the array. Even if only one element is shown, you may cycle through the array using the arrows next to the $0$ seen in the figures. This $0$ corresponds to the index of the top visible element in the array. Array controls are made in a similar fashion on the front panel. Once you have made an array, you can start adding values. You do this by clicking on the grey $0$ and typing in a number.  
+
+\subsubsection{Manipulation}
+Figure \ref{ch2SimpleArrayBlock} shows how the numeric functions may be used to operate on arrays. These operations are preformed on an element by element basis. Figure \ref{ch2SimpleArrayFront} shows the result of these two operations. The result is truncated to the size of the smallest array.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2SimpleArrayBlock}
+	\caption{Two operations on array variables, these are the normal functions found in the ``Numeric'' folder in the functions palette.}
+	\label{ch2SimpleArrayBlock}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2SimpleArrayFront}
+	\caption{The results of elementary operations on arrays.}
+	\label{ch2SimpleArrayFront}
+\end{figure}
+
+There are also a few array specific functions in the numeric palette which yield the sum of all the array elements or the product all the elements. You should experiment with these on your own.\\
+
+\subsubsection{Exploitation}
+The real power, and complexity, of arrays emerge when operating on the elements themselves. Figure \ref{ch2IndexArrayBlock} shows some of the most important operations able to be performed on arrays.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2IndexArrayBlock}
+	\caption{Fundamental operations on arrays.}
+	\label{ch2IndexArrayBlock}
+\end{figure}
+
+The array size function is rather self explanatory, it just gives you the number of elements in the array.\\
+
+The index array function picks out an element of an array at the index you specified. Index $0$ being the first element in an array. Getting the last element of an array requires you to know its size, since indexing starts at $0$, you need to decrement the size before sending it to the index function.\\
+
+Unlike in \texttt{C} programming, indexing an array out of bounds in $\labview$ will not destroy your computer. For numeric arrays, the index function will return $0$ upon indexing an out of range value and will continue with your program as if nothing has happened. Soon enough you will discover on your own what an ``off by one'' error is.\\
+
+The delete array element function takes two arguments, an index value and length. This deletes the value at the selected index. If the length is more than one, the selected index and subsequent indexes are deleted. What do you think happens when you wire in a negative length value?\\ %TODO Test this, I don't know.
+
+The add array element function adds an element into the index you specify, think of it like cutting in line at the bank. If you cut in line at position three from the front desk, the person behind you is now fourth and you are now third. I do not condone this behaviour, please exercise this in a computer program and not in real life.\\
+
+Figure \ref{ch2IndexArrayFront} shows the results of these operations. The next step is to put these functions into context so you can see how they are used in more useful programs.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2IndexArrayFront}
+	\caption{The results of fundamental operations on arrays.}
+	\label{ch2IndexArrayFront}
+\end{figure}
+
+\subsubsection{Using arrays with loops}
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2eg6Block}
+	\caption{Using auto indexing tunnels to create an array.}
+	\label{ch2eg6Block}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2eg6Front}
+	\caption{The output of an auto indexing tunnel, do you notice what is wrong here?}
+	\label{ch2eg6Front}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2eg7}
+	\caption{A rewrite of the program that gives the expected results.}
+	\label{ch2eg7}
+\end{figure}
 \section{Creating functions}
 
 \section{Slightly more advanced Mini Projects}
