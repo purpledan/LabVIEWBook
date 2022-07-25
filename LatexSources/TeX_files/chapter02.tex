@@ -25,7 +25,7 @@ The case structure executes a block of code according to its input condition. In
 
 Comparison functions in $\labview$ produce only boolean values, this you have seen in the examples so far. Feeding these boolean values into case structures allow you to select different operations to be preformed. The example provided in figures \ref{ch2egTrue} \& \ref{ch2egFalse} show how you would choose two different operations on an integer. If the condition is true, 512 is added to the input number and the result is given, the indicator outside the case structure.  If the value is false, 512 is squared and the result given.\\
 
-A case structure also accepts enumeration values. This is similar to a switch structure in \texttt{C} programming. In figure \ref{ch2eg2}, a value named ``Multiply'' is placed into the case structure. This allows you to have many paths of execution in a single structure. In the example, a simple calculator is made which takes two input numbers and an enumeration condition, the block then executes the proper logic and hands you the result at the end. One of the mini projects at the end of this section chapter will require you to create a 4-function calculator.\\
+A case structure also accepts enumeration values. This is similar to a switch structure in \texttt{C} programming. In figure \ref{ch2eg2}, a value named ``Multiply'' is placed into the case structure. This allows you to have many paths of execution in a single structure. In the example, a simple calculator is made which takes two input numbers and an enumeration condition, the block then executes the proper logic and hands you the result at the end. One of the mini projects at the end of this chapter will require you to create a 4-function calculator.\\
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{ch2eg2}
@@ -73,6 +73,21 @@ An implementation of this may be found in figure \ref{ch2eg4}. On the right hand
 \end{figure}
 
 You may notice in that example that the left hand side has two little arrows stacked on top of each other, this gives you access to the previous iteration values. In this case the top arrow is the value of iteration n-2 and the bottom arrow is the value of iteration n-1. You can extend or reduce the number of iterations available by clicking and dragging the bottom edges of the shift register.\\
+
+The values feeding into the left of the shift registers initialise the two first numbers in the sequence. If you do not do this, the two initial numbers would be $0$. Do not rely on such implicit details, if you want to have the first numbers to be $0$, wire in a zero constant explicitly. This will also show your intent in the code and not leave people reading the code guessing.\\
+
+The indicator wired to the little blue \texttt{i} gives you access to the current iteration, starting from $0$ end ending in $n-1$. You don't need to memorise this, just hover your mouse over the little blue \texttt{i} and it will tell you. Although not exactly useful in this example, it makes working with arrays significantly easier so you should look forward to that.\\
+
+\subsection{While Loops}
+Suppose your program needs to monitor a temperature sensor and it requires the temperature to be above some set point before it turns on a fan, say. You can not know when this temperature threshold is reached, if it is ever ever reached. In such a case, a while loop allows us to execute some code only leaving the loop once some condition is met. If the condition is never met, then the loop never ends.\\
+
+Figure \ref{ch2eg5} is the previous Fibonacci sequence program modified to use a while loop instead. Gone is the little blue \texttt{N} in the top left corner of the loop. Instead, a little red circle is present at the bottom right corner of the loop. This is the conditional terminal\\
+
+In this example, if a number in the sequence is greater than $100$, the comparison function sends a ``true'' value to the condition terminal which causes the loop to terminate. If this is slightly confusing, just remember ``Red means stop!. \\
+
+If you \texttt{right click} on the condition terminal, you may change it to a ``if true'' condition. In this case, the while loop will only terminate when it receives a ``false'' value. Conveniently, the terminal changes to a green circular arrow, in other words ``Green means go!.\\
+
+Much like in other programming languages, infinite loops are considered unwanted behaviour. While loops must have their conditional terminals wired, even if your program would run for days or weeks on end, it should have a button to safely exit its execution. This will become more apparent in Chapter 3 where we will be programming hardware, other than your computer that is.
 \section{Aggregate data types}
 
 \section{Creating functions}

@@ -33,9 +33,10 @@
 \contentsline {subsection}{\numberline {2.1.2}Ternary operators}{21}{}%
 \contentsline {section}{\numberline {2.2}Code looping structures}{22}{}%
 \contentsline {subsection}{\numberline {2.2.1}For Loops}{23}{}%
-\contentsline {section}{\numberline {2.3}Aggregate data types}{24}{}%
-\contentsline {section}{\numberline {2.4}Creating functions}{24}{}%
-\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{24}{}%
+\contentsline {subsection}{\numberline {2.2.2}While Loops}{25}{}%
+\contentsline {section}{\numberline {2.3}Aggregate data types}{26}{}%
+\contentsline {section}{\numberline {2.4}Creating functions}{26}{}%
+\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{26}{}%
 \contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{27}{}%
 \contentsline {section}{\numberline {3.1}Getting Started}{27}{}%
 \contentsline {section}{\numberline {3.2}Writing and Reading Ports}{27}{}%
