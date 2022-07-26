@@ -170,7 +170,7 @@ The index array function picks out an element of an array at the index you speci
 
 Unlike in \texttt{C} programming, indexing an array out of bounds in $\labview$ will not destroy your computer. For numeric arrays, the index function will return $0$ upon indexing an out of range value and will continue with your program as if nothing has happened. Soon enough you will discover on your own what an ``off by one'' error is.\\
 
-The delete array element function takes two arguments, an index value and length. This deletes the value at the selected index. If the length is more than one, the selected index and subsequent indexes are deleted. What do you think happens when you wire in a negative length value?\\ %TODO Test this, I don't know.
+The delete array element function takes two arguments, an index value and length. This deletes the value at the selected index. If the length is more than one, the selected index and subsequent indexes are deleted. What do you think happens when you wire in a negative length value? Sadly nothing, no element is deleted if a number less than $1$ is given.\\
 
 The add array element function adds an element into the index you specify, think of it like cutting in line at the bank. If you cut in line at position three from the front desk, the person behind you is now fourth and you are now third. I do not condone this behaviour, please exercise this in a computer program and not in real life.\\
 
@@ -183,6 +183,9 @@ Figure \ref{ch2IndexArrayFront} shows the results of these operations. The next 
 \end{figure}
 
 \subsubsection{Using arrays with loops}
+In the previous section, we used loops to create a sequence of numbers. There was no way to store the numbers so the value was just printed to the screen on every loop.\\
+
+Figure \ref{ch2eg6Block} shows a very simple way to extract a sequence from a loop. By branching the wire going into the shift register and connecting it to the while loop, $\labview$ creates what is known as an ``auto indexing tunnel''. The terminal has what looks like a blue \texttt{[]} inside of it. If yours is just a solid blue colour, \texttt{right click} on the terminal and select the indexing option. A solid blue box in this case means that the while loop will supply only the last value to that output.\\
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{ch2eg6Block}
@@ -196,13 +199,32 @@ Figure \ref{ch2IndexArrayFront} shows the results of these operations. The next 
 	\label{ch2eg6Front}
 \end{figure}
 
+Figure \ref{ch2eg6Front} shows the result of this computation, it is missing the first $0$ and there is another small mistake. We will fix both these mistakes in a moment.\\
 
+Auto indexing of tunnels also work as inputs. Feeding an array into a for loop allows you to iterate over all its contents. In figure \ref{ch2SimpleForArray}, a previous example of element wise addition is recreated. The loop indexes input arrays, you may find the exact index by using the blue \texttt{i}, saving you the effort of manually indexing and inserting elements.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2SimpleForArray}
+	\caption{Using auto indexing tunnels to create an array.}
+	\label{ch2SimpleForArray}
+\end{figure}
+
+This tool becomes exceptionally powerful when combined with Arduino hardware, or any instrument really. Suppose you are controlling a LED, you can build a function that turns this LED on and off. You can then create an array with ones and zeros and feed it into a for loop. The for loop will pick off the elements one by one and send it to your LED function. If this sounds stupid to you, how did this document get to your computer screen, or into the printer if you are reading a hardcopy? The answer; bit by bit.\\
+
+Let us now return to the Fibonacci sequence problem, in the previous example, the first $0$ was missing and the value $144$ is found hanging on the end of the array, this is larger than $100$, so it seems our condition value is ignored.\\
+
+This occurs because, even though the value fed into our greater than function, the rest of the iteration executes. Thus the number $144$ comes along for a ride and is not cast into the depths of oblivion.\\
+
+Figure \ref{ch2eg7} is, perhaps, an extravagant example on how to fix the two small mistakes in the previous example. There is a simpler fix which just requires the relocation of a single wire, can you find that fix?\\
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{ch2eg7}
 	\caption{A rewrite of the program that gives the expected results.}
 	\label{ch2eg7}
 \end{figure}
+
+You should walk through the example in figure \ref{ch2eg7}, going step by step following the wires. Draw up this program on your own and see how it works. You can follow how $\labview$ executes this program by clicking on the light bulb in the top bar. This is the ``highlight execution'' button and is a useful tool to debug a program. If you grow tired of seeing the little signals passing through the wires, press the red button to stop the program.
+
 \section{Creating functions}
 
 \section{Slightly more advanced Mini Projects}

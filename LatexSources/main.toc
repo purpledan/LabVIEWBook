@@ -39,9 +39,9 @@
 \contentsline {subsubsection}{Creation}{27}{}%
 \contentsline {subsubsection}{Manipulation}{27}{}%
 \contentsline {subsubsection}{Exploitation}{28}{}%
-\contentsline {subsubsection}{Using arrays with loops}{33}{}%
-\contentsline {section}{\numberline {2.4}Creating functions}{33}{}%
-\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{33}{}%
+\contentsline {subsubsection}{Using arrays with loops}{30}{}%
+\contentsline {section}{\numberline {2.4}Creating functions}{34}{}%
+\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{34}{}%
 \contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{35}{}%
 \contentsline {section}{\numberline {3.1}Getting Started}{35}{}%
 \contentsline {section}{\numberline {3.2}Writing and Reading Ports}{35}{}%
