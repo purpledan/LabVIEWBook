@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  28 JUL 2022 15:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  28 JUL 2022 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,80 +816,121 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-
-LaTeX Warning: Reference `exampleMaxMinFunc' on page 36 undefined on input line
- 255.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-
- []
-
-<./Figures//ch2LastFirst1.png, id=215, 592.71437pt x 370.88562pt>
+<./Figures//exampleMaxMinFunc.png, id=215, 301.62688pt x 148.05313pt>
+File: ./Figures//exampleMaxMinFunc.png Graphic file (type png)
+<use ./Figures//exampleMaxMinFunc.png>
+Package pdftex.def Info: ./Figures//exampleMaxMinFunc.png  used on input line 2
+58.
+(pdftex.def)             Requested size: 292.5pt x 143.57294pt.
+<./Figures//ch2LastFirst1.png, id=216, 592.71437pt x 370.88562pt>
 File: ./Figures//ch2LastFirst1.png Graphic file (type png)
 <use ./Figures//ch2LastFirst1.png>
-Package pdftex.def Info: ./Figures//ch2LastFirst1.png  used on input line 260.
+Package pdftex.def Info: ./Figures//ch2LastFirst1.png  used on input line 266.
 (pdftex.def)             Requested size: 390.0pt x 244.0439pt.
 [36 <./Figures//BookProject.png>]
 
-LaTeX Warning: Reference `ch2LastFirst2' on page 37 undefined on input line 265
+LaTeX Warning: Reference `ch2LastFirst2' on page 37 undefined on input line 271
 .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-
-LaTeX Warning: Reference `ch2exampleSelection' on page 37 undefined on input li
-ne 267.
-
-<./Figures//ch2AutoSubVI.png, id=220, 591.20876pt x 366.36874pt>
+<./Figures//ch2SelectionExample.png, id=221, 232.36812pt x 150.06062pt>
+File: ./Figures//ch2SelectionExample.png Graphic file (type png)
+<use ./Figures//ch2SelectionExample.png>
+Package pdftex.def Info: ./Figures//ch2SelectionExample.png  used on input line
+ 278.
+(pdftex.def)             Requested size: 155.99762pt x 100.74388pt.
+<./Figures//ch2SelectionSubVI.png, id=222, 192.72pt x 129.98563pt>
+File: ./Figures//ch2SelectionSubVI.png Graphic file (type png)
+<use ./Figures//ch2SelectionSubVI.png>
+Package pdftex.def Info: ./Figures//ch2SelectionSubVI.png  used on input line 2
+85.
+(pdftex.def)             Requested size: 155.99762pt x 105.21635pt.
+<./Figures//ch2AutoSubVI.png, id=223, 591.20876pt x 366.36874pt>
 File: ./Figures//ch2AutoSubVI.png Graphic file (type png)
 <use ./Figures//ch2AutoSubVI.png>
-Package pdftex.def Info: ./Figures//ch2AutoSubVI.png  used on input line 271.
+Package pdftex.def Info: ./Figures//ch2AutoSubVI.png  used on input line 296.
 (pdftex.def)             Requested size: 390.0pt x 241.6867pt.
-File: ./Figures//ch2AutoSubVI.png Graphic file (type png)
-<use ./Figures//ch2AutoSubVI.png>
-Package pdftex.def Info: ./Figures//ch2AutoSubVI.png  used on input line 279.
-(pdftex.def)             Requested size: 390.0pt x 241.6867pt.
-<./Figures//ch2IconEdit.png, id=221, 723.70375pt x 349.305pt>
+<./Figures//ch2IconEdit.png, id=224, 723.70375pt x 349.305pt>
 File: ./Figures//ch2IconEdit.png Graphic file (type png)
 <use ./Figures//ch2IconEdit.png>
-Package pdftex.def Info: ./Figures//ch2IconEdit.png  used on input line 287.
+Package pdftex.def Info: ./Figures//ch2IconEdit.png  used on input line 304.
 (pdftex.def)             Requested size: 390.0pt x 188.23813pt.
-<./Figures//ch2FuncMyIcon.png, id=222, 257.96375pt x 254.45062pt>
+<./Figures//ch2FuncMyIcon.png, id=225, 257.96375pt x 254.45062pt>
 File: ./Figures//ch2FuncMyIcon.png Graphic file (type png)
 <use ./Figures//ch2FuncMyIcon.png>
-Package pdftex.def Info: ./Figures//ch2FuncMyIcon.png  used on input line 293.
+Package pdftex.def Info: ./Figures//ch2FuncMyIcon.png  used on input line 310.
 (pdftex.def)             Requested size: 97.5pt x 96.17197pt.
-[37 <./Figures//ch2LastFirst1.png>] [38 <./Figures//ch2AutoSubVI.png>])
-[39 <./Figures//ch2IconEdit.png> <./Figures//ch2FuncMyIcon.png>]
+<./Figures//ch2FuncPreGrid.png, id=226, 54.70438pt x 29.10875pt>
+File: ./Figures//ch2FuncPreGrid.png Graphic file (type png)
+<use ./Figures//ch2FuncPreGrid.png>
+Package pdftex.def Info: ./Figures//ch2FuncPreGrid.png  used on input line 320.
+
+(pdftex.def)             Requested size: 155.99762pt x 83.00919pt.
+<./Figures//ch2FuncPostGrid.png, id=227, 51.19125pt x 28.105pt>
+File: ./Figures//ch2FuncPostGrid.png Graphic file (type png)
+<use ./Figures//ch2FuncPostGrid.png>
+Package pdftex.def Info: ./Figures//ch2FuncPostGrid.png  used on input line 327
+.
+(pdftex.def)             Requested size: 155.99762pt x 85.65147pt.
+[37 <./Figures//exampleMaxMinFunc.png>] [38 <./Figures//ch2LastFirst1.png> <./F
+igures//ch2SelectionExample.png> <./Figures//ch2SelectionSubVI.png>] [39 <./Fig
+ures//ch2AutoSubVI.png> <./Figures//ch2IconEdit.png>]
+<./Figures//exampleMyFunc.png, id=242, 321.2pt x 155.58125pt>
+File: ./Figures//exampleMyFunc.png Graphic file (type png)
+<use ./Figures//exampleMyFunc.png>
+Package pdftex.def Info: ./Figures//exampleMyFunc.png  used on input line 338.
+(pdftex.def)             Requested size: 292.5pt x 141.6836pt.
+<./Figures//MyFuncContext.png, id=243, 229.35687pt x 173.14688pt>
+File: ./Figures//MyFuncContext.png Graphic file (type png)
+<use ./Figures//MyFuncContext.png>
+Package pdftex.def Info: ./Figures//MyFuncContext.png  used on input line 346.
+(pdftex.def)             Requested size: 195.0pt x 147.2178pt.
+ [40 <./Figures//ch2FuncMyIcon.png> <./Figures//ch2FuncPreGrid.png> <./Figures/
+/ch2FuncPostGrid.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+<./Figures//ch2IndexArrayMyFunc.png, id=250, 592.71437pt x 368.87813pt>
+File: ./Figures//ch2IndexArrayMyFunc.png Graphic file (type png)
+<use ./Figures//ch2IndexArrayMyFunc.png>
+Package pdftex.def Info: ./Figures//ch2IndexArrayMyFunc.png  used on input line
+ 357.
+(pdftex.def)             Requested size: 390.0pt x 242.72296pt.
+[41 <./Figures//exampleMyFunc.png> <./Figures//MyFuncContext.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+) [42 <./Figures//ch2IndexArrayMyFunc.png>]
 \openout2 = `./TeX_files/chapter03.aux'.
 
-
-(./TeX_files/chapter03.tex [40
+ (./TeX_files/chapter03.tex
+Chapter 3.
+) [43
 
 
 
 
 ]
-Chapter 3.
-) [41]
 \openout2 = `./TeX_files/Appendix.aux'.
 
- (./TeX_files/Appendix.tex [42
+ (./TeX_files/Appendix.tex [44
 
 
 
 
 ]
 Appendix A.
-[43] [44
+[45] [46
 
 ]
 Appendix B.
-) [45] [46
+) [47] [48
 
 
 
@@ -900,10 +941,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7659 strings out of 478994
- 129844 string characters out of 5858184
- 1019966 words of memory out of 5000000
- 25078 multiletter control sequences out of 15000+600000
+ 7739 strings out of 478994
+ 132044 string characters out of 5858184
+ 1020630 words of memory out of 5000000
+ 25158 multiletter control sequences out of 15000+600000
  414343 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,74p,726b,1578s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -925,10 +966,10 @@ ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (50 pages, 2544291 bytes).
+Output written on main.pdf (52 pages, 2760965 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 337 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

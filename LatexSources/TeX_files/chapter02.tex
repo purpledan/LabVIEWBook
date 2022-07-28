@@ -251,8 +251,14 @@ After you have created a VI in your project, it should open up by itself so you 
 
 This is by no means a complete overview of the project manager, but it should be enough for you to get started. Once you have built some programs as functions, you can simply drag them into another VI to use them. We will get to that very soon.\\
 
-\subsubsection{Creating a Function}
+\subsection{Creating a Function}
 Just as a reminder, every block you have placed down in the block diagram is known as a function. For example, let us look at the ``Array Max \& Min'' function, in figure \ref{exampleMaxMinFunc}. I have wired in all the inputs and outputs to give you an idea of how it is used in an actual program. This is what we will be working toward.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{exampleMaxMinFunc}
+	\caption{The inputs and outputs of the Max \& Min function, we will use this as inspiration for our own function.}
+	\label{exampleMaxMinFunc}
+\end{figure}
 
 Suppose we go back to figure \ref{ch2IndexArrayBlock}, on page \pageref{ch2IndexArrayBlock}, we extract the first and last element of an array by grabbing index $0$ and getting the last index by getting the array length and decrementing that by one. I have created a new VI to hold this program, seen in figure \ref{ch2LastFirst1}.\\
 \begin{figure}
@@ -264,13 +270,24 @@ Suppose we go back to figure \ref{ch2IndexArrayBlock}, on page \pageref{ch2Index
 
 We can now go one step further and use the index values to extract the two elements from an array. This makes sense because you either need the index values themselves or the actual values. You could create a program to do each function separately, but it does not hurt to do both. Figure \ref{ch2LastFirst2} shows how this is implemented. Note that every value not used is simply thrown away. If you are worried about program performance, just stop. Compiled $\labview$ programs are quite good at getting rid of parts of a program that is not used.\\
 
-Now comes the fun part, drag a box and select the entire program excluding the control and indicator terminals, see figure \ref{ch2exampleSelection}.%TODO ADD FIGURE
-While still having the contents selected, from the taskbar go to ``Edit'' and select ``Create subVI from selection''. This wall squash everything into a little block, seen in figure \ref{ch2AutoSubVI}.\\ %TODO WRONG PICTURE
-\begin{figure}
+Now comes the fun part, drag a box and select the entire program excluding the control and indicator terminals, see figure \ref{ch2SelectionExample}. While still having the contents selected, from the taskbar go to ``Edit'' and select ``Create subVI from selection''. This wall squash everything into a little block, seen in figure \ref{ch2AutoSubVI}.\\
+\begin{figure} %TODO Fix the condition figures to be the same size
 	\centering
-	\includegraphics[width=\textwidth]{ch2AutoSubVI}
-	\caption{A newly created subVI, it is rather ugly.}
-	\label{ch2AutoSubVI1}
+	\begin{subfigure}[b]{0.40\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{ch2SelectionExample}
+		\caption{Everything in this box will go into our function.}
+		\label{ch2SelectionExample}
+	\end{subfigure}
+	\hfil
+	\begin{subfigure}[b]{0.40\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{ch2SelectionSubVI}
+		\caption{A newly created subVI, it is rather ugly.}
+		\label{ch2SelectionSubVI}
+	\end{subfigure}
+	\caption{Creating a subVI, also known as a function.}
+	\label{subVI}
 \end{figure}
 
 From a glance, it is not very clear what this function does, \texttt{double click} on this block to open up the VI. By a fluke, this example almost looks identical to the block diagram previously, bar the change in indicator names, see figure \ref{ch2AutoSubVI}. Rename these so that they make some sense.\\
@@ -295,5 +312,52 @@ You can now double click on the icon in the top right corner of the window, figu
 	\label{ch2FuncMyIcon}
 \end{figure}
 
-With your new icon, you should now focus on organising the wiring terminals. \texttt{Right click} on the terminal block and select ``Disconnect all terminals''.  
+With your new icon, you should focus on organising the wiring terminals. Figure \ref{ch2FuncPreGrid} shows how your terminal grid might look like. Note that this is only seen in the front panel window, not the block diagram window. If you \texttt{left click} on any of the colour filled terminals, you will see a blue box appear around the control that is associated with that terminal. The current layout might not make sense so let us redo it completely. \texttt{Right click} on the grid and select ``Disconnect All Terminals'' from the menu. You can then connect a control by clicking on an empty terminal (white) and clicking on a front panel element.
+\begin{figure}
+	\centering
+	\begin{subfigure}[b]{0.40\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{ch2FuncPreGrid}
+		\caption{Automated creation of the terminal grid.}
+		\label{ch2FuncPreGrid}
+	\end{subfigure}
+	\hfil
+	\begin{subfigure}[b]{0.40\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{ch2FuncPostGrid}
+		\caption{A manually wired input and output grid.}
+		\label{ch2FuncPostGrid}
+	\end{subfigure}
+	\caption{The terminal grid for a function block.}
+	\label{terminals}
+\end{figure}
+
+By convention we assume that inputs are on the left and outputs are on the right. Figure \ref{ch2FuncPostGrid} shows what might be a good layout, the orange square on the left is the array input while the alternating orange and blue indicators are the element and index outputs respectively. Here the first element comes from the top and the last element comes from the bottom, just like the icon would suggest. We now have our function ready for use, see figure \ref{exampleMyFunc}.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{exampleMyFunc}
+	\caption{A fresh new function out of the oven, ready to be used in another program.}
+	\label{exampleMyFunc}
+\end{figure}
+
+If you are wondering why we renamed the inputs and outputs to something useful, figure \ref{MyFuncContext}, is the context help message that appears when hovering over our function. The figure also shows a description of the function, this has to be supplied by you. You can do this by going to ``File'' in the taskbar and selecting ``VI Properties'', in this window, using the list-box named ``Category'' select the ``Documentation'' panel. Here you can write a little paragraph on your function.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.50\textwidth]{MyFuncContext}
+	\caption{The context help message for FirstLastArrayElement.vi.}
+	\label{MyFuncContext}
+\end{figure}
+
+\subsection{Using a Function}
+We are now ready to clean up the example in figure \ref{ch2IndexArrayBlock}, delete the part of the program that is being replaced with the function we just made. From the project manager window, click and drag the function over to the block diagram where you want the new function to live.\\
+
+You can now wire in the function and you should have something that resembles figure \ref{ch2IndexArrayMyFunc}. That is it, I am sure you appreciate just how much neater the example looks.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2IndexArrayMyFunc}
+	\caption{A much neater example using a function we made ourselves.}
+	\label{ch2IndexArrayMyFunc}
+\end{figure}
+
+This function has a problem, it does not know what type of array is piped into it. The built in functions found in $\labview$ adapt to their inputs. They are what is known as ``malleable'' VIs. This topic is not really advanced, it is easy to create a malleable VI yourself. The difficulty is dealing with typecasting and how $\labview$ deals with types internally. This will be covered in a future chapter.\\ 
 \section{Slightly more advanced Mini Projects}

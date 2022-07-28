@@ -42,11 +42,12 @@
 \contentsline {subsubsection}{Using arrays with loops}{30}{}%
 \contentsline {section}{\numberline {2.4}Creating functions}{34}{}%
 \contentsline {subsection}{\numberline {2.4.1}Project Management}{35}{}%
-\contentsline {subsubsection}{Creating a Function}{36}{}%
-\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{39}{}%
-\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{41}{}%
-\contentsline {section}{\numberline {3.1}Getting Started}{41}{}%
-\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{41}{}%
-\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{41}{}%
-\contentsline {chapter}{\numberline {A}Installing LabVIEW}{43}{}%
-\contentsline {chapter}{\numberline {B}Installing LiNX}{45}{}%
+\contentsline {subsection}{\numberline {2.4.2}Creating a Function}{36}{}%
+\contentsline {subsection}{\numberline {2.4.3}Using a Function}{41}{}%
+\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{42}{}%
+\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{43}{}%
+\contentsline {section}{\numberline {3.1}Getting Started}{43}{}%
+\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{43}{}%
+\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{43}{}%
+\contentsline {chapter}{\numberline {A}Installing LabVIEW}{45}{}%
+\contentsline {chapter}{\numberline {B}Installing LiNX}{47}{}%
