@@ -226,5 +226,74 @@ Figure \ref{ch2eg7} is, perhaps, an extravagant example on how to fix the two sm
 You should walk through the example in figure \ref{ch2eg7}, going step by step following the wires. Draw up this program on your own and see how it works. You can follow how $\labview$ executes this program by clicking on the light bulb in the top bar. This is the ``highlight execution'' button and is a useful tool to debug a program. If you grow tired of seeing the little signals passing through the wires, press the red button to stop the program.
 
 \section{Creating functions}
+You have no doubt seen so far how cluttered your block diagram can get. Figure \ref{ch2eg7} is a program that does one thing, generate an array of the Fibonacci numbers, how busy would the diagram get if we build upon this example? Very busy, so busy that you would wish you learned \texttt{C} instead.\\
 
+You may clean up your code by grouping together functions in a little block, which is also known as a function. Before we get to that however, let us first take a detour into project management in $\labview$. Having a project groups your functions together and makes it easier to build upon your previous work.\\
+
+\subsection{Project Management}
+To create a project, on the startup screen, press the button that says ``Create Project'', see \ref{startup} on page \pageref{startup}. This will ask you what type of project you would like, there are quite a few templates to choose from, but for now just click on ``empty project''. A window will open up with your new empty untitled project like in figure \ref{newProjectPage}.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{newProjectPage}
+	\caption{A freshly baked project, it has nothing in it yet, you provide the rest.}
+	\label{newProjectPage}
+\end{figure}
+
+From here you can create a new VI by going to ``File'' and pressing ``New...''. You can also create a virtual folder in the project by \texttt{right clicking} and pressing ``Create virtual folder''. This folder does not exist in your file system, instead it allows you to organise your project in meaningful sections. The examples in this book is also contained in a project, see figure \ref{BookProject}.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{BookProject}
+	\caption{The project used to keep track of all the examples in this book.}
+	\label{BookProject}
+\end{figure}
+
+After you have created a VI in your project, it should open up by itself so you can start programming. You may also \texttt{double click} on a VI in the project manager to open up a particular VI. After you are done creating a program for launching ballistic missiles, you can save everything you are working on by going to file and then selecting ``Save All''. After that you can close the project manager and it will close all the other open VIs that are part of that particular project.\\
+
+This is by no means a complete overview of the project manager, but it should be enough for you to get started. Once you have built some programs as functions, you can simply drag them into another VI to use them. We will get to that very soon.\\
+
+\subsubsection{Creating a Function}
+Just as a reminder, every block you have placed down in the block diagram is known as a function. For example, let us look at the ``Array Max \& Min'' function, in figure \ref{exampleMaxMinFunc}. I have wired in all the inputs and outputs to give you an idea of how it is used in an actual program. This is what we will be working toward.\\
+
+Suppose we go back to figure \ref{ch2IndexArrayBlock}, on page \pageref{ch2IndexArrayBlock}, we extract the first and last element of an array by grabbing index $0$ and getting the last index by getting the array length and decrementing that by one. I have created a new VI to hold this program, seen in figure \ref{ch2LastFirst1}.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2LastFirst1}
+	\caption{Prototype of a First and Last index function.}
+	\label{ch2LastFirst1}
+\end{figure}
+
+We can now go one step further and use the index values to extract the two elements from an array. This makes sense because you either need the index values themselves or the actual values. You could create a program to do each function separately, but it does not hurt to do both. Figure \ref{ch2LastFirst2} shows how this is implemented. Note that every value not used is simply thrown away. If you are worried about program performance, just stop. Compiled $\labview$ programs are quite good at getting rid of parts of a program that is not used.\\
+
+Now comes the fun part, drag a box and select the entire program excluding the control and indicator terminals, see figure \ref{ch2exampleSelection}.%TODO ADD FIGURE
+While still having the contents selected, from the taskbar go to ``Edit'' and select ``Create subVI from selection''. This wall squash everything into a little block, seen in figure \ref{ch2AutoSubVI}.\\ %TODO WRONG PICTURE
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2AutoSubVI}
+	\caption{A newly created subVI, it is rather ugly.}
+	\label{ch2AutoSubVI1}
+\end{figure}
+
+From a glance, it is not very clear what this function does, \texttt{double click} on this block to open up the VI. By a fluke, this example almost looks identical to the block diagram previously, bar the change in indicator names, see figure \ref{ch2AutoSubVI}. Rename these so that they make some sense.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2AutoSubVI}
+	\caption{The block diagram of the auto subVI function.}
+	\label{ch2AutoSubVI}
+\end{figure}
+
+You can now double click on the icon in the top right corner of the window, figure \ref{ch2IconEdit} is the window that should open. This is the icon editor, it is like paint. Let your creative juices flow and create an icon that would make it clear what this function does among the hundreds of other functions in your programs. My attempt at an icon may be seen in figure \ref{ch2FuncMyIcon}.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2IconEdit}
+	\caption{The icon editor program.}
+	\label{ch2IconEdit}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.25\textwidth]{ch2FuncMyIcon}
+	\caption{This icon conveys more or less what the function does.}
+	\label{ch2FuncMyIcon}
+\end{figure}
+
+With your new icon, you should now focus on organising the wiring terminals. \texttt{Right click} on the terminal block and select ``Disconnect all terminals''.  
 \section{Slightly more advanced Mini Projects}

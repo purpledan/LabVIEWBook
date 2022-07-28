@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  26 JUL 2022 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  28 JUL 2022 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,68 +781,154 @@ File: ./Figures//ch2eg7.png Graphic file (type png)
 <use ./Figures//ch2eg7.png>
 Package pdftex.def Info: ./Figures//ch2eg7.png  used on input line 221.
 (pdftex.def)             Requested size: 390.0pt x 241.81885pt.
-[33 <./Figures//ch2SimpleForArray.png>]) [34 <./Figures//ch2eg7.png>]
+[33 <./Figures//ch2SimpleForArray.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+<./Figures//newProjectPage.png, id=205, 601.74812pt x 370.38374pt>
+File: ./Figures//newProjectPage.png Graphic file (type png)
+<use ./Figures//newProjectPage.png>
+Package pdftex.def Info: ./Figures//newProjectPage.png  used on input line 237.
+
+(pdftex.def)             Requested size: 390.0pt x 240.05707pt.
+
+Underfull \vbox (badness 4120) has occurred while \output is active []
+
+ [34 <./Figures//ch2eg7.png>]
+<./Figures//BookProject.png, id=210, 604.2575pt x 368.87813pt>
+File: ./Figures//BookProject.png Graphic file (type png)
+<use ./Figures//BookProject.png>
+Package pdftex.def Info: ./Figures//BookProject.png  used on input line 245.
+(pdftex.def)             Requested size: 390.0pt x 238.07935pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+[35 <./Figures//newProjectPage.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+LaTeX Warning: Reference `exampleMaxMinFunc' on page 36 undefined on input line
+ 255.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+<./Figures//ch2LastFirst1.png, id=215, 592.71437pt x 370.88562pt>
+File: ./Figures//ch2LastFirst1.png Graphic file (type png)
+<use ./Figures//ch2LastFirst1.png>
+Package pdftex.def Info: ./Figures//ch2LastFirst1.png  used on input line 260.
+(pdftex.def)             Requested size: 390.0pt x 244.0439pt.
+[36 <./Figures//BookProject.png>]
+
+LaTeX Warning: Reference `ch2LastFirst2' on page 37 undefined on input line 265
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+LaTeX Warning: Reference `ch2exampleSelection' on page 37 undefined on input li
+ne 267.
+
+<./Figures//ch2AutoSubVI.png, id=220, 591.20876pt x 366.36874pt>
+File: ./Figures//ch2AutoSubVI.png Graphic file (type png)
+<use ./Figures//ch2AutoSubVI.png>
+Package pdftex.def Info: ./Figures//ch2AutoSubVI.png  used on input line 271.
+(pdftex.def)             Requested size: 390.0pt x 241.6867pt.
+File: ./Figures//ch2AutoSubVI.png Graphic file (type png)
+<use ./Figures//ch2AutoSubVI.png>
+Package pdftex.def Info: ./Figures//ch2AutoSubVI.png  used on input line 279.
+(pdftex.def)             Requested size: 390.0pt x 241.6867pt.
+<./Figures//ch2IconEdit.png, id=221, 723.70375pt x 349.305pt>
+File: ./Figures//ch2IconEdit.png Graphic file (type png)
+<use ./Figures//ch2IconEdit.png>
+Package pdftex.def Info: ./Figures//ch2IconEdit.png  used on input line 287.
+(pdftex.def)             Requested size: 390.0pt x 188.23813pt.
+<./Figures//ch2FuncMyIcon.png, id=222, 257.96375pt x 254.45062pt>
+File: ./Figures//ch2FuncMyIcon.png Graphic file (type png)
+<use ./Figures//ch2FuncMyIcon.png>
+Package pdftex.def Info: ./Figures//ch2FuncMyIcon.png  used on input line 293.
+(pdftex.def)             Requested size: 97.5pt x 96.17197pt.
+[37 <./Figures//ch2LastFirst1.png>] [38 <./Figures//ch2AutoSubVI.png>])
+[39 <./Figures//ch2IconEdit.png> <./Figures//ch2FuncMyIcon.png>]
 \openout2 = `./TeX_files/chapter03.aux'.
 
 
-(./TeX_files/chapter03.tex
-Chapter 3.
-) [35
+(./TeX_files/chapter03.tex [40
 
 
 
 
 ]
+Chapter 3.
+) [41]
 \openout2 = `./TeX_files/Appendix.aux'.
 
- (./TeX_files/Appendix.tex [36
+ (./TeX_files/Appendix.tex [42
 
 
 
 
 ]
 Appendix A.
-[37] [38
+[43] [44
 
 ]
 Appendix B.
-) [39] [40
+) [45] [46
 
 
 
 ] (./main.aux (./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux) (./TeX_fi
-les/chapter03.aux) (./TeX_files/Appendix.aux)) ) 
+les/chapter03.aux) (./TeX_files/Appendix.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7600 strings out of 478994
- 128422 string characters out of 5858184
- 1019630 words of memory out of 5000000
- 25019 multiletter control sequences out of 15000+600000
+ 7659 strings out of 478994
+ 129844 string characters out of 5858184
+ 1019966 words of memory out of 5000000
+ 25078 multiletter control sequences out of 15000+600000
  414343 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,74p,726b,1578s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-
-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
--super/sftt1000.pfb>
-Output written on main.pdf (44 pages, 2128745 bytes).
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (50 pages, 2544291 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
+ 317 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
