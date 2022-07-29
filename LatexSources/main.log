@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  28 JUL 2022 18:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  29 JUL 2022 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,137 +781,161 @@ File: ./Figures//ch2eg7.png Graphic file (type png)
 <use ./Figures//ch2eg7.png>
 Package pdftex.def Info: ./Figures//ch2eg7.png  used on input line 221.
 (pdftex.def)             Requested size: 390.0pt x 241.81885pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
 [33 <./Figures//ch2SimpleForArray.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+<./Figures//ch2Cluster.png, id=205, 596.72937pt x 366.36874pt>
+File: ./Figures//ch2Cluster.png Graphic file (type png)
+<use ./Figures//ch2Cluster.png>
+Package pdftex.def Info: ./Figures//ch2Cluster.png  used on input line 232.
+(pdftex.def)             Requested size: 390.0pt x 239.44499pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+[34 <./Figures//ch2eg7.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-<./Figures//newProjectPage.png, id=205, 601.74812pt x 370.38374pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./Figures//ch2Cluster.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+<./Figures//newProjectPage.png, id=214, 601.74812pt x 370.38374pt>
 File: ./Figures//newProjectPage.png Graphic file (type png)
 <use ./Figures//newProjectPage.png>
-Package pdftex.def Info: ./Figures//newProjectPage.png  used on input line 237.
+Package pdftex.def Info: ./Figures//newProjectPage.png  used on input line 251.
 
 (pdftex.def)             Requested size: 390.0pt x 240.05707pt.
-
-Underfull \vbox (badness 4120) has occurred while \output is active []
-
- [34 <./Figures//ch2eg7.png>]
-<./Figures//BookProject.png, id=210, 604.2575pt x 368.87813pt>
+<./Figures//BookProject.png, id=215, 604.2575pt x 368.87813pt>
 File: ./Figures//BookProject.png Graphic file (type png)
 <use ./Figures//BookProject.png>
-Package pdftex.def Info: ./Figures//BookProject.png  used on input line 245.
+Package pdftex.def Info: ./Figures//BookProject.png  used on input line 259.
 (pdftex.def)             Requested size: 390.0pt x 238.07935pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
-[35 <./Figures//newProjectPage.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-<./Figures//exampleMaxMinFunc.png, id=215, 301.62688pt x 148.05313pt>
+[36] [37 <./Figures//newProjectPage.png> <./Figures//BookProject.png>]
+<./Figures//exampleMaxMinFunc.png, id=224, 301.62688pt x 148.05313pt>
 File: ./Figures//exampleMaxMinFunc.png Graphic file (type png)
 <use ./Figures//exampleMaxMinFunc.png>
 Package pdftex.def Info: ./Figures//exampleMaxMinFunc.png  used on input line 2
-58.
+72.
 (pdftex.def)             Requested size: 292.5pt x 143.57294pt.
-<./Figures//ch2LastFirst1.png, id=216, 592.71437pt x 370.88562pt>
+<./Figures//ch2LastFirst1.png, id=225, 592.71437pt x 370.88562pt>
 File: ./Figures//ch2LastFirst1.png Graphic file (type png)
 <use ./Figures//ch2LastFirst1.png>
-Package pdftex.def Info: ./Figures//ch2LastFirst1.png  used on input line 266.
+Package pdftex.def Info: ./Figures//ch2LastFirst1.png  used on input line 280.
 (pdftex.def)             Requested size: 390.0pt x 244.0439pt.
-[36 <./Figures//BookProject.png>]
 
-LaTeX Warning: Reference `ch2LastFirst2' on page 37 undefined on input line 271
+
+LaTeX Warning: Reference `ch2LastFirst2' on page 38 undefined on input line 285
 .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
-<./Figures//ch2SelectionExample.png, id=221, 232.36812pt x 150.06062pt>
+<./Figures//ch2SelectionExample.png, id=226, 232.36812pt x 150.06062pt>
 File: ./Figures//ch2SelectionExample.png Graphic file (type png)
 <use ./Figures//ch2SelectionExample.png>
 Package pdftex.def Info: ./Figures//ch2SelectionExample.png  used on input line
- 278.
+ 292.
 (pdftex.def)             Requested size: 155.99762pt x 100.74388pt.
-<./Figures//ch2SelectionSubVI.png, id=222, 192.72pt x 129.98563pt>
+<./Figures//ch2SelectionSubVI.png, id=227, 192.72pt x 129.98563pt>
 File: ./Figures//ch2SelectionSubVI.png Graphic file (type png)
 <use ./Figures//ch2SelectionSubVI.png>
 Package pdftex.def Info: ./Figures//ch2SelectionSubVI.png  used on input line 2
-85.
+99.
 (pdftex.def)             Requested size: 155.99762pt x 105.21635pt.
-<./Figures//ch2AutoSubVI.png, id=223, 591.20876pt x 366.36874pt>
+[38 <./Figures//exampleMaxMinFunc.png>]
+<./Figures//ch2AutoSubVI.png, id=232, 591.20876pt x 366.36874pt>
 File: ./Figures//ch2AutoSubVI.png Graphic file (type png)
 <use ./Figures//ch2AutoSubVI.png>
-Package pdftex.def Info: ./Figures//ch2AutoSubVI.png  used on input line 296.
+Package pdftex.def Info: ./Figures//ch2AutoSubVI.png  used on input line 310.
 (pdftex.def)             Requested size: 390.0pt x 241.6867pt.
-<./Figures//ch2IconEdit.png, id=224, 723.70375pt x 349.305pt>
+<./Figures//ch2IconEdit.png, id=233, 723.70375pt x 349.305pt>
 File: ./Figures//ch2IconEdit.png Graphic file (type png)
 <use ./Figures//ch2IconEdit.png>
-Package pdftex.def Info: ./Figures//ch2IconEdit.png  used on input line 304.
+Package pdftex.def Info: ./Figures//ch2IconEdit.png  used on input line 318.
 (pdftex.def)             Requested size: 390.0pt x 188.23813pt.
-<./Figures//ch2FuncMyIcon.png, id=225, 257.96375pt x 254.45062pt>
+<./Figures//ch2FuncMyIcon.png, id=234, 257.96375pt x 254.45062pt>
 File: ./Figures//ch2FuncMyIcon.png Graphic file (type png)
 <use ./Figures//ch2FuncMyIcon.png>
-Package pdftex.def Info: ./Figures//ch2FuncMyIcon.png  used on input line 310.
+Package pdftex.def Info: ./Figures//ch2FuncMyIcon.png  used on input line 324.
 (pdftex.def)             Requested size: 97.5pt x 96.17197pt.
-<./Figures//ch2FuncPreGrid.png, id=226, 54.70438pt x 29.10875pt>
+<./Figures//ch2FuncPreGrid.png, id=235, 54.70438pt x 29.10875pt>
 File: ./Figures//ch2FuncPreGrid.png Graphic file (type png)
 <use ./Figures//ch2FuncPreGrid.png>
-Package pdftex.def Info: ./Figures//ch2FuncPreGrid.png  used on input line 320.
+Package pdftex.def Info: ./Figures//ch2FuncPreGrid.png  used on input line 334.
 
 (pdftex.def)             Requested size: 155.99762pt x 83.00919pt.
-<./Figures//ch2FuncPostGrid.png, id=227, 51.19125pt x 28.105pt>
+<./Figures//ch2FuncPostGrid.png, id=236, 51.19125pt x 28.105pt>
 File: ./Figures//ch2FuncPostGrid.png Graphic file (type png)
 <use ./Figures//ch2FuncPostGrid.png>
-Package pdftex.def Info: ./Figures//ch2FuncPostGrid.png  used on input line 327
+Package pdftex.def Info: ./Figures//ch2FuncPostGrid.png  used on input line 341
 .
 (pdftex.def)             Requested size: 155.99762pt x 85.65147pt.
-[37 <./Figures//exampleMaxMinFunc.png>] [38 <./Figures//ch2LastFirst1.png> <./F
-igures//ch2SelectionExample.png> <./Figures//ch2SelectionSubVI.png>] [39 <./Fig
-ures//ch2AutoSubVI.png> <./Figures//ch2IconEdit.png>]
-<./Figures//exampleMyFunc.png, id=242, 321.2pt x 155.58125pt>
+ [39 <./Figures//ch2LastFirst1.png>]
+[40 <./Figures//ch2SelectionExample.png> <./Figures//ch2SelectionSubVI.png> <./
+Figures//ch2AutoSubVI.png>] [41 <./Figures//ch2IconEdit.png> <./Figures//ch2Fun
+cMyIcon.png>]
+<./Figures//exampleMyFunc.png, id=251, 321.2pt x 155.58125pt>
 File: ./Figures//exampleMyFunc.png Graphic file (type png)
 <use ./Figures//exampleMyFunc.png>
-Package pdftex.def Info: ./Figures//exampleMyFunc.png  used on input line 338.
+Package pdftex.def Info: ./Figures//exampleMyFunc.png  used on input line 352.
 (pdftex.def)             Requested size: 292.5pt x 141.6836pt.
-<./Figures//MyFuncContext.png, id=243, 229.35687pt x 173.14688pt>
+<./Figures//MyFuncContext.png, id=252, 229.35687pt x 173.14688pt>
 File: ./Figures//MyFuncContext.png Graphic file (type png)
 <use ./Figures//MyFuncContext.png>
-Package pdftex.def Info: ./Figures//MyFuncContext.png  used on input line 346.
+Package pdftex.def Info: ./Figures//MyFuncContext.png  used on input line 360.
 (pdftex.def)             Requested size: 195.0pt x 147.2178pt.
- [40 <./Figures//ch2FuncMyIcon.png> <./Figures//ch2FuncPreGrid.png> <./Figures/
-/ch2FuncPostGrid.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
-<./Figures//ch2IndexArrayMyFunc.png, id=250, 592.71437pt x 368.87813pt>
+[42 <./Figures//ch2FuncPreGrid.png> <./Figures//ch2FuncPostGrid.png> <./Figures
+//exampleMyFunc.png>]
+<./Figures//ch2IndexArrayMyFunc.png, id=259, 592.71437pt x 368.87813pt>
 File: ./Figures//ch2IndexArrayMyFunc.png Graphic file (type png)
 <use ./Figures//ch2IndexArrayMyFunc.png>
 Package pdftex.def Info: ./Figures//ch2IndexArrayMyFunc.png  used on input line
- 357.
+ 371.
 (pdftex.def)             Requested size: 390.0pt x 242.72296pt.
-[41 <./Figures//exampleMyFunc.png> <./Figures//MyFuncContext.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
 
  []
 
-) [42 <./Figures//ch2IndexArrayMyFunc.png>]
+) [43 <./Figures//MyFuncContext.png>] [44 <./Figures//ch2IndexArrayMyFunc.png>]
 \openout2 = `./TeX_files/chapter03.aux'.
 
- (./TeX_files/chapter03.tex
+(./TeX_files/chapter03.tex
 Chapter 3.
-) [43
+) [45
 
 
 
@@ -919,18 +943,18 @@ Chapter 3.
 ]
 \openout2 = `./TeX_files/Appendix.aux'.
 
- (./TeX_files/Appendix.tex [44
+ (./TeX_files/Appendix.tex [46
 
 
 
 
 ]
 Appendix A.
-[45] [46
+[47] [48
 
 ]
 Appendix B.
-) [47] [48
+) [49] [50
 
 
 
@@ -941,10 +965,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7739 strings out of 478994
- 132044 string characters out of 5858184
- 1020630 words of memory out of 5000000
- 25158 multiletter control sequences out of 15000+600000
+ 7748 strings out of 478994
+ 132245 string characters out of 5858184
+ 1020678 words of memory out of 5000000
+ 25167 multiletter control sequences out of 15000+600000
  414343 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,74p,726b,1578s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -966,10 +990,10 @@ ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (52 pages, 2760965 bytes).
+Output written on main.pdf (54 pages, 2862211 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
+ 345 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

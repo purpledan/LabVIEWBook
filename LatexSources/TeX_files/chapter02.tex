@@ -223,8 +223,22 @@ Figure \ref{ch2eg7} is, perhaps, an extravagant example on how to fix the two sm
 	\label{ch2eg7}
 \end{figure}
 
-You should walk through the example in figure \ref{ch2eg7}, going step by step following the wires. Draw up this program on your own and see how it works. You can follow how $\labview$ executes this program by clicking on the light bulb in the top bar. This is the ``highlight execution'' button and is a useful tool to debug a program. If you grow tired of seeing the little signals passing through the wires, press the red button to stop the program.
+You should walk through the example in figure \ref{ch2eg7}, going step by step following the wires. Draw up this program on your own and see how it works. You can follow how $\labview$ executes this program by clicking on the light bulb in the top bar. This is the ``highlight execution'' button and is a useful tool to debug a program. If you grow tired of seeing the little signals passing through the wires, press the red button to stop the program.\\
 
+\subsection{Clusters}
+It is possible to group variables into bundles called clusters, this allows you to have one wire acting as a bus, caring around variables across your program. Figure \ref{ch2Cluster} shows how this is done using the ``Bundle'' function from the function palette.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2Cluster}
+	\caption{A group of numbers being bundled and unbundled.}
+	\label{ch2Cluster}
+\end{figure}
+
+You can read an element from a cluster using either the ``Named Unbundle'' command or the ``Unbundle'' command. The named version uses the name of the wire being bundled, in this case the name is inherited from the control. This allows you to see at a glance what value you would like to choose. You can click and drag the blue terminals on the top or bottom of the bundle functions to increase or decrease the number of terminals. You can change the selected variables by clicking on their names and selecting a different one.\\
+
+In the simple example, figure \ref{ch2Cluster}, you can see that it is possible to unbundle a variable at random, you do not need to unbundle everything at once. The name is slightly misleading however, when you unbundle a variable from a bus, you are not actually removing it, you are just making a copy of it. To change that variable, you have to either unbundle all the elements, change one, and wire everything back into a new bundle. This is tedious and error prone. A better way is to wire in an old bundle, into a ``Bundle'' function, and only selecting the variables you want to overwrite. The other values will stay unchanged.\\
+
+This is all that you need for now when it comes to clusters. They are exceptionally useful for functions and keeping track of variables which are related to one another. There is also the topic of ``Type-definitions'' which properly exploits the utility of clusters. You can look forward to that in a later chapter.
 \section{Creating functions}
 You have no doubt seen so far how cluttered your block diagram can get. Figure \ref{ch2eg7} is a program that does one thing, generate an array of the Fibonacci numbers, how busy would the diagram get if we build upon this example? Very busy, so busy that you would wish you learned \texttt{C} instead.\\
 
@@ -359,5 +373,6 @@ You can now wire in the function and you should have something that resembles fi
 	\label{ch2IndexArrayMyFunc}
 \end{figure}
 
-This function has a problem, it does not know what type of array is piped into it. The built in functions found in $\labview$ adapt to their inputs. They are what is known as ``malleable'' VIs. This topic is not really advanced, it is easy to create a malleable VI yourself. The difficulty is dealing with typecasting and how $\labview$ deals with types internally. This will be covered in a future chapter.\\ 
+This function has a problem, it does not know what type of array is piped into it. The built in functions found in $\labview$ adapt to their inputs. They are what is known as ``malleable'' VIs. This topic is not really advanced, it is easy to create a malleable VI yourself. The difficulty is dealing with typecasting and how $\labview$ deals with types internally. This will be covered in a future chapter.\\
+ 
 \section{Slightly more advanced Mini Projects}
