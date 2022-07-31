@@ -1,3 +1,27 @@
 \appendix
 \chapter{Installing LabVIEW}
-\chapter{Installing LiNX}
+\section{Introduction}
+This guide will assume you are using Microsoft Windows 10 as an operating system. According to NI, they are still working on supporting Windows 11. As I am allergic to anything MS related, I have not tested Windows 11 and I will never test it. I am also seeing myself deviating from using $\labview$ in the future as I have a passionate hatred for all proprietary software packages. There is a reason this book is available to you for free.
+\section{Getting LabVIEW Community}
+Die LabVIEW webwerf is so deurmekaar soos 'n hoer se handsak. I can't be expected to keep track of how NI organises their forsaken website so I will not be providing any link to the download page of $\labview$ community edition.\\
+
+Use your favourite internet search engine to search for \texttt{Labview community edition}, this should take you to a page where you can select the operating system you use and the version you want. Before you press on any download link, make sure that the page you are on has a URL starting with \texttt{https://www.ni.com/...}! Note the ``s'' in that link. If it does not have the ``s'' exit that page. If the link is correct, it should be secure to download and execute the binary provided to you.\\
+
+Before you can download the installation file however, NI will ask you to create a profile on their website. I recommend that you create a spare email address that you do not use for personal work. Do not give these companies any more information about you than absolutely necessary.
+\section{Installing LabVIEW}
+You can mount the installation media by double clicking on the file you downloaded from the NI website. If this gives you any issues, \texttt{right click} on the file and select ``open with'' and choose ``Windows Explorer''. Open the mounted media and execute the install application therein. Now read through the license agreement and if you accept the terms and conditions, tick the ``I accept the above license agreement'' box and press ``Next''. $\labview$ might then ask you to disable Windows fast startup. Untick the box, why should your entire computer bend to the will of NI just to use its software? After that, press ``Next''.\\
+
+It will tell you that it will install the NI package manager, just press next again. It will then give you a window asking you what to install. Press the ``Deselect All'' option to untick all the boxes. We do not want to install a bunch of bloat/garbage. Only select the following items:
+\begin{itemize}
+	\item JKI VI Package Manager
+	\item NI Certificates Installer
+	\item LabVIEW VI Analyzer Toolkit (32-bit)
+\end{itemize}
+You can then press next and again read through the licenses and accept them, if you do that is.\\
+
+It may ask you again about the disable Windows Fast Startup, again don't allow them to convince you, deselect the tick box and move on with your life. After this, $\labview$ should show you what it is going to install and you may simply press next until the installation is complete.
+\section{Licencing}
+The final part of installation is the licensing phase. You are required to log into your $\labview$ account, the one I told you to make with a separate email address. After you have logged in, the program will ask you to activate a bunch of programs, here you should press the ``Activate'' button while having the ``Check my account for licenses'' option selected. Once that is done, you can exit the window.\\
+
+You should now have $\labview$ 2022 community edition installed on your computer. This edition of $\labview$ may not be used for any commercial purposes, you are only allowed to use it in your own personal capacity. This version is not even allowed for educational purposes. The institution has their own licence they use on their computers.
+

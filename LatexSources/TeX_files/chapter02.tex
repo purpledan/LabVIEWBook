@@ -373,6 +373,23 @@ You can now wire in the function and you should have something that resembles fi
 	\label{ch2IndexArrayMyFunc}
 \end{figure}
 
-This function has a problem, it does not know what type of array is piped into it. The built in functions found in $\labview$ adapt to their inputs. They are what is known as ``malleable'' VIs. This topic is not really advanced, it is easy to create a malleable VI yourself. The difficulty is dealing with typecasting and how $\labview$ deals with types internally. This will be covered in a future chapter.\\
- 
+This function has a problem, it does not know what type of array is piped into it. The built in functions found in $\labview$ adapt to their inputs. They are what is known as ``malleable'' VIs. This topic is not really advanced, it is easy to create a malleable VI yourself. The difficulty is dealing with typecasting and how $\labview$ deals with types internally. This will be covered in a future chapter.
+ \newpage
 \section{Slightly more advanced Mini Projects}
+\begin{enumerate}
+	\item Build a simple 4-function calculator, that is, a program which takes two inputs and performs either addition, subtraction, multiplication or division.\\
+	
+	You have also seen how element wise operations are preformed on arrays, write a separate program that takes an array as an input and then gives the user the ability to choose a single index on which the operation is performed or if the users uses index $-1$, the operation is performed on the entire array.\\
+	
+	Search the $\labview$ helpfiles for the topic known as an ``polymorphic VI'', this type of VI allows you to stack different operations into a single function. Try to merge the two programs you have created into a function which allows the user to choose between two single value inputs, and an array input with index and single value inputs.
+	
+	\item There is a very handy little function called ``String to Byte Array'', to find it, open the function palette and in the top right corner you will see the ``search'' box, use this feature to find anything you struggle to find in the conventional means. This particular function takes a string type as an input and converts it into an array of 8-bit unsigned integers according to ASCII encoding.\\
+	
+	Read up on ``Caesar's cypher'', use the above function to create a program that encrypts a block of text. Also create a program that decrypts a block of text. For both you will need a method to select the shift number. Send this encrypted block of text to your friends, along with the shift number, so that they can read your secret message.\\
+	
+	Request an encrypted message from your friends without a shift number. Write a program that can crack this cypher, this should be simple since the cypher is very easy to crack, any encrypted text can be deciphered by a maximum of 255 shifts since the block should be pure ASCII.
+	
+	\item For the previous project you used the ``String to Byte Array'', this time, use the ``Number To Boolean Array'' to write a function which converts the input from the ``String to Byte Array'' to patterns of light. This means you require a program with eight indicator lights, representing an 8-bit register, and then the program should be able to use those two functions to convert a string of characters into patterns of light. This will be used in the next chapter to create advanced programs for the Arduino.\\
+	
+	If this is proving to be difficult, if it is trivially easy for you then you should look for a more advanced book on $\labview$, write a program that converts a string into an array of bytes, wire this array of bytes into a for loop. Inside the for loop, use the number to boolean array function, wire this array into another for loop. Inside of this nested for loop, use a timer function to wait for a 100ms, the value coming from the boolean array can be piped into an LED. This will give you an idea how a TV remote works.
+\end{enumerate}
