@@ -46,8 +46,12 @@
 \contentsline {subsection}{\numberline {2.4.2}Creating a Function}{38}{}%
 \contentsline {subsection}{\numberline {2.4.3}Using a Function}{43}{}%
 \contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{44}{}%
-\contentsline {chapter}{\numberline {A}Installing LabVIEW}{47}{}%
-\contentsline {section}{\numberline {A.1}Introduction}{47}{}%
-\contentsline {section}{\numberline {A.2}Getting LabVIEW Community}{47}{}%
-\contentsline {section}{\numberline {A.3}Installing LabVIEW}{48}{}%
-\contentsline {section}{\numberline {A.4}Licencing}{48}{}%
+\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{47}{}%
+\contentsline {section}{\numberline {3.1}Getting Started}{47}{}%
+\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{48}{}%
+\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{48}{}%
+\contentsline {chapter}{\numberline {A}Installing LabVIEW}{49}{}%
+\contentsline {section}{\numberline {A.1}Introduction}{49}{}%
+\contentsline {section}{\numberline {A.2}Getting LabVIEW Community}{49}{}%
+\contentsline {section}{\numberline {A.3}Installing LabVIEW}{50}{}%
+\contentsline {section}{\numberline {A.4}Licencing}{50}{}%
