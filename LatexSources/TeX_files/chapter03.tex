@@ -3,7 +3,7 @@ If you have covered Chapter 2 \& 3, you are more than ready to start using $\lab
 
 This chapter will focus on the ``LiNX'' package, it should be installed with your community edition of $\labview$. To check if you do have this package installed, go to the block diagram and open the functions palette. Near the bottom of the menu, you will see a folder called ``Hobbyist", this contains all the functions you need to talk to your Arduino board. If it is not installed, you can use the JKI package manager to install it.
 \section{Getting Started}
-Before we begin sending commands to our Arduino board, we need to flash specific firmware onto the little microcontroller of the board. To do this, you need the LiNX firmware wizard. You can open the firmware wizard by going to ``Tools'' on the taskbar and selecting Firmware from the menu.\\ %TODO, CHECK THIS
+Before we begin sending commands to our Arduino board, we need to flash specific firmware onto the little microcontroller of the board. To do this, you need the LiNX firmware wizard. You can open the firmware wizard from your taskbar by going to Tools\textrightarrow Maker Hub\textrightarrow LiNX\textrightarrow LiNX Firmware Wizard.\\
 
 Before you move along, the rest of the chapter assumes you will be using an Arduino Uno, I have tested it on an Arduino Nano before so your mileage may vary. Since the firmware wizard does not have much in the way of troubleshooting options, you should make sure that you can flash programs onto your device using the Arduino Studio program. Make note of the serial address, you will need it for the next step.\\
 
@@ -19,7 +19,19 @@ Figure \ref{FirmwareTool} shows the wizard open, use the following settings: (As
 	\caption{The LiNX firmware wizard, we use this tool to make the Arduino learn $\labview$.}
 	\label{FirmwareTool}
 \end{figure}
-In the settings menu, make sure that you have the correct port selected which is connected to your device %TODO, go over this part
+Pressing next will take you to the port selection screen, make sure you select the COM port your Arduino board is connected to. If you do not see it here, make sure that you have the device plugged in and that the drivers for it is installed.\\
+
+The last screen you should leave as is, figure \ref{FirmwareConf}, it sets the method in which the wizard flashes the microcontroller, in this case Serial/USB, and what type of firmware to install. It is possible to create your own firmware, but this beyond the scope of this book.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{FirmwarePath}
+	\caption{Firmware flash settings screen, you should leave this as is.}
+	\label{FirmwareConf}
+\end{figure}
+
+Once the firmware flashing is complete, a friendly window will tell you so, press the ``Launch Example'' button to test drive the new system. Figure \ref{BuiltInArduinoEg} shows the VI that opens. %TODO Add the picture please
+ Here you set the COM port, like you did previously, and select the output channel to be 13. Run this VI and press the LED that says ``Click Here'', you will observe that the LED on your Arduino reflects the status of the LED in the VI. Go ahead and press it as many times as you like, you now have control over a real world object through the power of your mouse.
+ 
 \section{Writing and Reading Ports}
 
 \section{Quite Advanced Projects}
