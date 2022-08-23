@@ -33,5 +33,15 @@ Once the firmware flashing is complete, a friendly window will tell you so, pres
  Here you set the COM port, like you did previously, and select the output channel to be 13. Run this VI and press the LED that says ``Click Here'', you will observe that the LED on your Arduino reflects the status of the LED in the VI. Go ahead and press it as many times as you like, you now have control over a real world object through the power of your mouse.
  
 \section{Writing and Reading Ports}
+We now take a small step back in time to review how Arduino code is structured. Figure \ref{ArduinoStartCode} shows the typical structure of an Arduino project. The ``setup'' block runs once, this is where \textit{you} configure all the inputs and outputs of the Arduino board and provide the code to setup a LCD display module, for example. The ``run'' loop runs continuously %TODO check naming of this loop
+performing the instructions step-by-step, until the end of time, or when the power cable is unplugged.\\
 
+Fortunately, you may use the same development patern for building code, for the Arduino, in $\labview$. There are few little extras along the way, such as opening a link to a board and managing the closing of any connections you made.\\
+
+It is right about now where you will realise the power of $\labview$, not so much in the graphical programming style, but the amount of libraries that exist to ease the development of prototype projects.\\
+
+\subsection{Opening a serial port to an Arduino}
+\subsection{Configuring I/O}
+\subsection{The main program loop} 
+\subsection{Closing all connections}
 \section{Quite Advanced Projects}
