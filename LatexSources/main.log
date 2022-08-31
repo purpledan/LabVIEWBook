@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  23 AUG 2022 09:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  31 AUG 2022 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -459,17 +459,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
 
 ] [2]
-<./Figures//Labview1.png, id=281, 401.5pt x 321.2pt>
+<./Figures//Labview1.png, id=301, 401.5pt x 321.2pt>
 File: ./Figures//Labview1.png Graphic file (type png)
 <use ./Figures//Labview1.png>
 Package pdftex.def Info: ./Figures//Labview1.png  used on input line 62.
 (pdftex.def)             Requested size: 191.10214pt x 152.88525pt.
-<./Figures//GUI1.png, id=282, 199.24437pt x 114.4275pt>
+<./Figures//GUI1.png, id=302, 199.24437pt x 114.4275pt>
 File: ./Figures//GUI1.png Graphic file (type png)
 <use ./Figures//GUI1.png>
 Package pdftex.def Info: ./Figures//GUI1.png  used on input line 69.
 (pdftex.def)             Requested size: 191.10214pt x 109.75485pt.
-<./Figures//startup.png, id=284, 640.3925pt x 432.11438pt>
+<./Figures//startup.png, id=304, 640.3925pt x 432.11438pt>
 File: ./Figures//startup.png Graphic file (type png)
 <use ./Figures//startup.png>
 Package pdftex.def Info: ./Figures//startup.png  used on input line 82.
@@ -485,17 +485,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
  []
 
 [4 <./Figures//startup.png>]
-<./Figures//exampleFront1.png, id=316, 388.95313pt x 324.71312pt>
+<./Figures//exampleFront1.png, id=336, 388.95313pt x 324.71312pt>
 File: ./Figures//exampleFront1.png Graphic file (type png)
 <use ./Figures//exampleFront1.png>
 Package pdftex.def Info: ./Figures//exampleFront1.png  used on input line 100.
 (pdftex.def)             Requested size: 191.10214pt x 159.54187pt.
-<./Figures//ExampleBlock1.png, id=317, 1062.97125pt x 807.015pt>
+<./Figures//ExampleBlock1.png, id=337, 1062.97125pt x 807.015pt>
 File: ./Figures//ExampleBlock1.png Graphic file (type png)
 <use ./Figures//ExampleBlock1.png>
 Package pdftex.def Info: ./Figures//ExampleBlock1.png  used on input line 107.
 (pdftex.def)             Requested size: 191.10214pt x 145.08403pt.
-<./Figures//EmptyFront.png, id=319, 591.20876pt x 364.36125pt>
+<./Figures//EmptyFront.png, id=339, 591.20876pt x 364.36125pt>
 File: ./Figures//EmptyFront.png Graphic file (type png)
 <use ./Figures//EmptyFront.png>
 Package pdftex.def Info: ./Figures//EmptyFront.png  used on input line 118.
@@ -506,7 +506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--124
  []
 
 [5 <./Figures//exampleFront1.png> <./Figures//ExampleBlock1.png (PNG copy)>]
-<./Figures//EmptyBlock.png, id=330, 589.70313pt x 364.36125pt>
+<./Figures//EmptyBlock.png, id=350, 589.70313pt x 364.36125pt>
 File: ./Figures//EmptyBlock.png Graphic file (type png)
 <use ./Figures//EmptyBlock.png>
 Package pdftex.def Info: ./Figures//EmptyBlock.png  used on input line 130.
@@ -527,22 +527,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
  []
 
 [7 <./Figures//EmptyBlock.png>] [8]
-<./Figures//boolFig.png, id=362, 223.83624pt x 73.77562pt>
+<./Figures//boolFig.png, id=382, 223.83624pt x 73.77562pt>
 File: ./Figures//boolFig.png Graphic file (type png)
 <use ./Figures//boolFig.png>
 Package pdftex.def Info: ./Figures//boolFig.png  used on input line 163.
 (pdftex.def)             Requested size: 191.10214pt x 62.98761pt.
-<./Figures//floatFig.png, id=363, 212.29312pt x 82.80937pt>
+<./Figures//floatFig.png, id=383, 212.29312pt x 82.80937pt>
 File: ./Figures//floatFig.png Graphic file (type png)
 <use ./Figures//floatFig.png>
 Package pdftex.def Info: ./Figures//floatFig.png  used on input line 170.
 (pdftex.def)             Requested size: 191.10214pt x 74.54668pt.
-<./Figures//intFig.png, id=364, 222.8325pt x 101.37875pt>
+<./Figures//intFig.png, id=384, 222.8325pt x 101.37875pt>
 File: ./Figures//intFig.png Graphic file (type png)
 <use ./Figures//intFig.png>
 Package pdftex.def Info: ./Figures//intFig.png  used on input line 177.
 (pdftex.def)             Requested size: 191.10214pt x 86.94424pt.
-<./Figures//stringFig.png, id=365, 208.78pt x 101.88063pt>
+<./Figures//stringFig.png, id=385, 208.78pt x 101.88063pt>
 File: ./Figures//stringFig.png Graphic file (type png)
 <use ./Figures//stringFig.png>
 Package pdftex.def Info: ./Figures//stringFig.png  used on input line 184.
@@ -576,7 +576,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
-<./Figures//blackboxtext.png, id=377, 198.7425pt x 74.2775pt>
+<./Figures//blackboxtext.png, id=397, 198.7425pt x 74.2775pt>
 File: ./Figures//blackboxtext.png Graphic file (type png)
 <use ./Figures//blackboxtext.png>
 Package pdftex.def Info: ./Figures//blackboxtext.png  used on input line 209.
@@ -592,7 +592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--217
  []
 
 [10]
-<./Figures//example1Front.png, id=385, 607.77063pt x 388.45125pt>
+<./Figures//example1Front.png, id=405, 607.77063pt x 388.45125pt>
 File: ./Figures//example1Front.png Graphic file (type png)
 <use ./Figures//example1Front.png>
 Package pdftex.def Info: ./Figures//example1Front.png  used on input line 221.
@@ -606,7 +606,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--229
 Underfull \vbox (badness 2409) has occurred while \output is active []
 
  [11 <./Figures//blackboxtext.png> <./Figures//example1Front.png>]
-<./Figures//example1Block.png, id=393, 599.74063pt x 388.45125pt>
+<./Figures//example1Block.png, id=413, 599.74063pt x 388.45125pt>
 File: ./Figures//example1Block.png Graphic file (type png)
 <use ./Figures//example1Block.png>
 Package pdftex.def Info: ./Figures//example1Block.png  used on input line 233.
@@ -616,14 +616,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
-<./Figures//wireinprogress.png, id=395, 205.26688pt x 147.55125pt>
+<./Figures//wireinprogress.png, id=415, 205.26688pt x 147.55125pt>
 File: ./Figures//wireinprogress.png Graphic file (type png)
 <use ./Figures//wireinprogress.png>
 Package pdftex.def Info: ./Figures//wireinprogress.png  used on input line 243.
 
 (pdftex.def)             Requested size: 195.0pt x 140.17062pt.
 [12 <./Figures//example1Block.png>]
-<./Figures//example2Block.png, id=405, 599.74063pt x 388.45125pt>
+<./Figures//example2Block.png, id=425, 599.74063pt x 388.45125pt>
 File: ./Figures//example2Block.png Graphic file (type png)
 <use ./Figures//example2Block.png>
 Package pdftex.def Info: ./Figures//example2Block.png  used on input line 251.
@@ -633,7 +633,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
-<./Figures//context1Help.png, id=407, 219.82124pt x 198.7425pt>
+<./Figures//context1Help.png, id=427, 219.82124pt x 198.7425pt>
 File: ./Figures//context1Help.png Graphic file (type png)
 <use ./Figures//context1Help.png>
 Package pdftex.def Info: ./Figures//context1Help.png  used on input line 261.
@@ -645,7 +645,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
 [13 <./Figures//wireinprogress.png>] [14 <./Figures//example2Block.png> <./Figu
 res//context1Help.png>]
-<./Figures//example3Block.png, id=424, 599.74063pt x 388.45125pt>
+<./Figures//example3Block.png, id=444, 599.74063pt x 388.45125pt>
 File: ./Figures//example3Block.png Graphic file (type png)
 <use ./Figures//example3Block.png>
 Package pdftex.def Info: ./Figures//example3Block.png  used on input line 271.
@@ -655,13 +655,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-<./Figures//exampleFrontTrue.png, id=427, 607.77063pt x 388.45125pt>
+<./Figures//exampleFrontTrue.png, id=447, 607.77063pt x 388.45125pt>
 File: ./Figures//exampleFrontTrue.png Graphic file (type png)
 <use ./Figures//exampleFrontTrue.png>
 Package pdftex.def Info: ./Figures//exampleFrontTrue.png  used on input line 28
 2.
 (pdftex.def)             Requested size: 390.0pt x 249.27179pt.
-<./Figures//exampleFrontFalse.png, id=428, 607.77063pt x 388.45125pt>
+<./Figures//exampleFrontFalse.png, id=448, 607.77063pt x 388.45125pt>
 File: ./Figures//exampleFrontFalse.png Graphic file (type png)
 <use ./Figures//exampleFrontFalse.png>
 Package pdftex.def Info: ./Figures//exampleFrontFalse.png  used on input line 2
@@ -730,12 +730,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 
 ]
-<./Figures//ch2eg1True.png, id=466, 595.72563pt x 369.38pt>
+<./Figures//ch2eg1True.png, id=486, 595.72563pt x 369.38pt>
 File: ./Figures//ch2eg1True.png Graphic file (type png)
 <use ./Figures//ch2eg1True.png>
 Package pdftex.def Info: ./Figures//ch2eg1True.png  used on input line 15.
 (pdftex.def)             Requested size: 390.0pt x 241.81885pt.
-<./Figures//ch2eg1False.png, id=467, 595.72563pt x 369.38pt>
+<./Figures//ch2eg1False.png, id=487, 595.72563pt x 369.38pt>
 File: ./Figures//ch2eg1False.png Graphic file (type png)
 <use ./Figures//ch2eg1False.png>
 Package pdftex.def Info: ./Figures//ch2eg1False.png  used on input line 21.
@@ -746,7 +746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
  []
 
 [20 <./Figures//ch2eg1True.png>]
-<./Figures//ch2eg2.png, id=478, 595.72563pt x 369.38pt>
+<./Figures//ch2eg2.png, id=498, 595.72563pt x 369.38pt>
 File: ./Figures//ch2eg2.png Graphic file (type png)
 <use ./Figures//ch2eg2.png>
 Package pdftex.def Info: ./Figures//ch2eg2.png  used on input line 31.
@@ -772,7 +772,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
  []
 
 [22 <./Figures//ch2eg2.png>]
-<./Figures//ch2eg3.png, id=493, 595.72563pt x 369.38pt>
+<./Figures//ch2eg3.png, id=513, 595.72563pt x 369.38pt>
 File: ./Figures//ch2eg3.png Graphic file (type png)
 <use ./Figures//ch2eg3.png>
 Package pdftex.def Info: ./Figures//ch2eg3.png  used on input line 54.
@@ -787,7 +787,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-<./Figures//ch2eg4.png, id=495, 595.72563pt x 369.38pt>
+<./Figures//ch2eg4.png, id=515, 595.72563pt x 369.38pt>
 File: ./Figures//ch2eg4.png Graphic file (type png)
 <use ./Figures//ch2eg4.png>
 Package pdftex.def Info: ./Figures//ch2eg4.png  used on input line 70.
@@ -813,7 +813,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
  []
 
 [24 <./Figures//ch2eg3.png>]
-<./Figures//ch2eg5.png, id=511, 595.72563pt x 369.38pt>
+<./Figures//ch2eg5.png, id=531, 595.72563pt x 369.38pt>
 File: ./Figures//ch2eg5.png Graphic file (type png)
 <use ./Figures//ch2eg5.png>
 Package pdftex.def Info: ./Figures//ch2eg5.png  used on input line 87.
@@ -823,12 +823,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-<./Figures//stopIfTrue.png, id=513, 58.2175pt x 37.13875pt>
+<./Figures//stopIfTrue.png, id=533, 58.2175pt x 37.13875pt>
 File: ./Figures//stopIfTrue.png Graphic file (type png)
 <use ./Figures//stopIfTrue.png>
 Package pdftex.def Info: ./Figures//stopIfTrue.png  used on input line 99.
 (pdftex.def)             Requested size: 155.99762pt x 99.53983pt.
-<./Figures//contIfTrue.png, id=514, 61.22874pt x 47.17625pt>
+<./Figures//contIfTrue.png, id=534, 61.22874pt x 47.17625pt>
 File: ./Figures//contIfTrue.png Graphic file (type png)
 <use ./Figures//contIfTrue.png>
 Package pdftex.def Info: ./Figures//contIfTrue.png  used on input line 105.
@@ -844,24 +844,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
  []
 
 [26 <./Figures//ch2eg5.png>]
-<./Figures//createNumArrayConst.png, id=531, 98.86937pt x 67.25125pt>
+<./Figures//createNumArrayConst.png, id=551, 98.86937pt x 67.25125pt>
 File: ./Figures//createNumArrayConst.png Graphic file (type png)
 <use ./Figures//createNumArrayConst.png>
 Package pdftex.def Info: ./Figures//createNumArrayConst.png  used on input line
  124.
 (pdftex.def)             Requested size: 155.99762pt x 106.12032pt.
-<./Figures//numArrayConst.png, id=532, 100.87688pt x 67.25125pt>
+<./Figures//numArrayConst.png, id=552, 100.87688pt x 67.25125pt>
 File: ./Figures//numArrayConst.png Graphic file (type png)
 <use ./Figures//numArrayConst.png>
 Package pdftex.def Info: ./Figures//numArrayConst.png  used on input line 131.
 (pdftex.def)             Requested size: 155.99762pt x 103.99924pt.
-<./Figures//ch2SimpleArrayBlock.png, id=536, 594.22pt x 368.87813pt>
+<./Figures//ch2SimpleArrayBlock.png, id=556, 594.22pt x 368.87813pt>
 File: ./Figures//ch2SimpleArrayBlock.png Graphic file (type png)
 <use ./Figures//ch2SimpleArrayBlock.png>
 Package pdftex.def Info: ./Figures//ch2SimpleArrayBlock.png  used on input line
  145.
 (pdftex.def)             Requested size: 390.0pt x 242.11507pt.
-<./Figures//ch2SimpleArrayFront.png, id=537, 596.72937pt x 367.87437pt>
+<./Figures//ch2SimpleArrayFront.png, id=557, 596.72937pt x 367.87437pt>
 File: ./Figures//ch2SimpleArrayFront.png Graphic file (type png)
 <use ./Figures//ch2SimpleArrayFront.png>
 Package pdftex.def Info: ./Figures//ch2SimpleArrayFront.png  used on input line
@@ -872,7 +872,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-<./Figures//ch2IndexArrayBlock.png, id=550, 594.22pt x 368.87813pt>
+<./Figures//ch2IndexArrayBlock.png, id=570, 594.22pt x 368.87813pt>
 File: ./Figures//ch2IndexArrayBlock.png Graphic file (type png)
 <use ./Figures//ch2IndexArrayBlock.png>
 Package pdftex.def Info: ./Figures//ch2IndexArrayBlock.png  used on input line 
@@ -904,7 +904,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-<./Figures//ch2IndexArrayFront.png, id=564, 596.72937pt x 367.87437pt>
+<./Figures//ch2IndexArrayFront.png, id=584, 596.72937pt x 367.87437pt>
 File: ./Figures//ch2IndexArrayFront.png Graphic file (type png)
 <use ./Figures//ch2IndexArrayFront.png>
 Package pdftex.def Info: ./Figures//ch2IndexArrayFront.png  used on input line 
@@ -916,12 +916,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--187
  []
 
 [30 <./Figures//ch2IndexArrayBlock.png>]
-<./Figures//ch2eg6Block.png, id=573, 595.72563pt x 369.38pt>
+<./Figures//ch2eg6Block.png, id=594, 595.72563pt x 369.38pt>
 File: ./Figures//ch2eg6Block.png Graphic file (type png)
 <use ./Figures//ch2eg6Block.png>
 Package pdftex.def Info: ./Figures//ch2eg6Block.png  used on input line 191.
 (pdftex.def)             Requested size: 390.0pt x 241.81885pt.
-<./Figures//ch2eg6Front.png, id=574, 595.22375pt x 369.38pt>
+<./Figures//ch2eg6Front.png, id=595, 595.22375pt x 369.38pt>
 File: ./Figures//ch2eg6Front.png Graphic file (type png)
 <use ./Figures//ch2eg6Front.png>
 Package pdftex.def Info: ./Figures//ch2eg6Front.png  used on input line 197.
@@ -931,7 +931,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-<./Figures//ch2SimpleForArray.png, id=577, 594.22pt x 368.87813pt>
+<./Figures//ch2SimpleForArray.png, id=598, 594.22pt x 368.87813pt>
 File: ./Figures//ch2SimpleForArray.png Graphic file (type png)
 <use ./Figures//ch2SimpleForArray.png>
 Package pdftex.def Info: ./Figures//ch2SimpleForArray.png  used on input line 2
@@ -953,7 +953,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-<./Figures//ch2eg7.png, id=595, 595.72563pt x 369.38pt>
+<./Figures//ch2eg7.png, id=615, 595.72563pt x 369.38pt>
 File: ./Figures//ch2eg7.png Graphic file (type png)
 <use ./Figures//ch2eg7.png>
 Package pdftex.def Info: ./Figures//ch2eg7.png  used on input line 221.
@@ -964,7 +964,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--227
  []
 
 [33 <./Figures//ch2SimpleForArray.png>]
-<./Figures//ch2Cluster.png, id=604, 596.72937pt x 366.36874pt>
+<./Figures//ch2Cluster.png, id=624, 596.72937pt x 366.36874pt>
 File: ./Figures//ch2Cluster.png Graphic file (type png)
 <use ./Figures//ch2Cluster.png>
 Package pdftex.def Info: ./Figures//ch2Cluster.png  used on input line 232.
@@ -992,13 +992,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
-<./Figures//newProjectPage.png, id=621, 601.74812pt x 370.38374pt>
+<./Figures//newProjectPage.png, id=641, 601.74812pt x 370.38374pt>
 File: ./Figures//newProjectPage.png Graphic file (type png)
 <use ./Figures//newProjectPage.png>
 Package pdftex.def Info: ./Figures//newProjectPage.png  used on input line 251.
 
 (pdftex.def)             Requested size: 390.0pt x 240.05707pt.
-<./Figures//BookProject.png, id=623, 604.2575pt x 368.87813pt>
+<./Figures//BookProject.png, id=643, 604.2575pt x 368.87813pt>
 File: ./Figures//BookProject.png Graphic file (type png)
 <use ./Figures//BookProject.png>
 Package pdftex.def Info: ./Figures//BookProject.png  used on input line 259.
@@ -1014,13 +1014,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
  []
 
 [36] [37 <./Figures//newProjectPage.png> <./Figures//BookProject.png>]
-<./Figures//exampleMaxMinFunc.png, id=638, 301.62688pt x 148.05313pt>
+<./Figures//exampleMaxMinFunc.png, id=658, 301.62688pt x 148.05313pt>
 File: ./Figures//exampleMaxMinFunc.png Graphic file (type png)
 <use ./Figures//exampleMaxMinFunc.png>
 Package pdftex.def Info: ./Figures//exampleMaxMinFunc.png  used on input line 2
 72.
 (pdftex.def)             Requested size: 292.5pt x 143.57294pt.
-<./Figures//ch2LastFirst1.png, id=642, 592.71437pt x 370.88562pt>
+<./Figures//ch2LastFirst1.png, id=662, 592.71437pt x 370.88562pt>
 File: ./Figures//ch2LastFirst1.png Graphic file (type png)
 <use ./Figures//ch2LastFirst1.png>
 Package pdftex.def Info: ./Figures//ch2LastFirst1.png  used on input line 280.
@@ -1035,41 +1035,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
-<./Figures//ch2SelectionExample.png, id=645, 232.36812pt x 150.06062pt>
+<./Figures//ch2SelectionExample.png, id=665, 232.36812pt x 150.06062pt>
 File: ./Figures//ch2SelectionExample.png Graphic file (type png)
 <use ./Figures//ch2SelectionExample.png>
 Package pdftex.def Info: ./Figures//ch2SelectionExample.png  used on input line
  292.
 (pdftex.def)             Requested size: 155.99762pt x 100.74388pt.
-<./Figures//ch2SelectionSubVI.png, id=646, 192.72pt x 129.98563pt>
+<./Figures//ch2SelectionSubVI.png, id=666, 192.72pt x 129.98563pt>
 File: ./Figures//ch2SelectionSubVI.png Graphic file (type png)
 <use ./Figures//ch2SelectionSubVI.png>
 Package pdftex.def Info: ./Figures//ch2SelectionSubVI.png  used on input line 2
 99.
 (pdftex.def)             Requested size: 155.99762pt x 105.21635pt.
 [38 <./Figures//exampleMaxMinFunc.png>]
-<./Figures//ch2AutoSubVI.png, id=656, 591.20876pt x 366.36874pt>
+<./Figures//ch2AutoSubVI.png, id=676, 591.20876pt x 366.36874pt>
 File: ./Figures//ch2AutoSubVI.png Graphic file (type png)
 <use ./Figures//ch2AutoSubVI.png>
 Package pdftex.def Info: ./Figures//ch2AutoSubVI.png  used on input line 310.
 (pdftex.def)             Requested size: 390.0pt x 241.6867pt.
-<./Figures//ch2IconEdit.png, id=659, 723.70375pt x 349.305pt>
+<./Figures//ch2IconEdit.png, id=679, 723.70375pt x 349.305pt>
 File: ./Figures//ch2IconEdit.png Graphic file (type png)
 <use ./Figures//ch2IconEdit.png>
 Package pdftex.def Info: ./Figures//ch2IconEdit.png  used on input line 318.
 (pdftex.def)             Requested size: 390.0pt x 188.23813pt.
-<./Figures//ch2FuncMyIcon.png, id=660, 257.96375pt x 254.45062pt>
+<./Figures//ch2FuncMyIcon.png, id=680, 257.96375pt x 254.45062pt>
 File: ./Figures//ch2FuncMyIcon.png Graphic file (type png)
 <use ./Figures//ch2FuncMyIcon.png>
 Package pdftex.def Info: ./Figures//ch2FuncMyIcon.png  used on input line 324.
 (pdftex.def)             Requested size: 97.5pt x 96.17197pt.
-<./Figures//ch2FuncPreGrid.png, id=662, 54.70438pt x 29.10875pt>
+<./Figures//ch2FuncPreGrid.png, id=682, 54.70438pt x 29.10875pt>
 File: ./Figures//ch2FuncPreGrid.png Graphic file (type png)
 <use ./Figures//ch2FuncPreGrid.png>
 Package pdftex.def Info: ./Figures//ch2FuncPreGrid.png  used on input line 334.
 
 (pdftex.def)             Requested size: 155.99762pt x 83.00919pt.
-<./Figures//ch2FuncPostGrid.png, id=663, 51.19125pt x 28.105pt>
+<./Figures//ch2FuncPostGrid.png, id=683, 51.19125pt x 28.105pt>
 File: ./Figures//ch2FuncPostGrid.png Graphic file (type png)
 <use ./Figures//ch2FuncPostGrid.png>
 Package pdftex.def Info: ./Figures//ch2FuncPostGrid.png  used on input line 341
@@ -1079,12 +1079,12 @@ Package pdftex.def Info: ./Figures//ch2FuncPostGrid.png  used on input line 341
 [40 <./Figures//ch2SelectionExample.png> <./Figures//ch2SelectionSubVI.png> <./
 Figures//ch2AutoSubVI.png>] [41 <./Figures//ch2IconEdit.png> <./Figures//ch2Fun
 cMyIcon.png>]
-<./Figures//exampleMyFunc.png, id=686, 321.2pt x 155.58125pt>
+<./Figures//exampleMyFunc.png, id=706, 321.2pt x 155.58125pt>
 File: ./Figures//exampleMyFunc.png Graphic file (type png)
 <use ./Figures//exampleMyFunc.png>
 Package pdftex.def Info: ./Figures//exampleMyFunc.png  used on input line 352.
 (pdftex.def)             Requested size: 292.5pt x 141.6836pt.
-<./Figures//MyFuncContext.png, id=688, 229.35687pt x 173.14688pt>
+<./Figures//MyFuncContext.png, id=708, 229.35687pt x 173.14688pt>
 File: ./Figures//MyFuncContext.png Graphic file (type png)
 <use ./Figures//MyFuncContext.png>
 Package pdftex.def Info: ./Figures//MyFuncContext.png  used on input line 360.
@@ -1096,7 +1096,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
 [42 <./Figures//ch2FuncPreGrid.png> <./Figures//ch2FuncPostGrid.png> <./Figures
 //exampleMyFunc.png>]
-<./Figures//ch2IndexArrayMyFunc.png, id=700, 592.71437pt x 368.87813pt>
+<./Figures//ch2IndexArrayMyFunc.png, id=720, 592.71437pt x 368.87813pt>
 File: ./Figures//ch2IndexArrayMyFunc.png Graphic file (type png)
 <use ./Figures//ch2IndexArrayMyFunc.png>
 Package pdftex.def Info: ./Figures//ch2IndexArrayMyFunc.png  used on input line
@@ -1163,7 +1163,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 
 ]
-<./Figures//FirmwareTool.png, id=731, 479.29062pt x 275.52937pt>
+<./Figures//FirmwareTool.png, id=751, 479.29062pt x 275.52937pt>
 File: ./Figures//FirmwareTool.png Graphic file (type png)
 <use ./Figures//FirmwareTool.png>
 Package pdftex.def Info: ./Figures//FirmwareTool.png  used on input line 18.
@@ -1173,7 +1173,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-<./Figures//FirmwarePath.png, id=733, 479.29062pt x 275.52937pt>
+<./Figures//FirmwarePath.png, id=753, 479.29062pt x 275.52937pt>
 File: ./Figures//FirmwarePath.png Graphic file (type png)
 <use ./Figures//FirmwarePath.png>
 Package pdftex.def Info: ./Figures//FirmwarePath.png  used on input line 27.
@@ -1201,13 +1201,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+[49 <./Figures//FirmwarePath.png>]
+<./Figures//ArduinoMainOpen.png, id=768, 327.2225pt x 220.32312pt>
+File: ./Figures//ArduinoMainOpen.png Graphic file (type png)
+<use ./Figures//ArduinoMainOpen.png>
+Package pdftex.def Info: ./Figures//ArduinoMainOpen.png  used on input line 49.
+
+(pdftex.def)             Requested size: 272.99881pt x 183.8128pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+<./Figures//ArdOpenPorts.png, id=770, 604.75937pt x 251.94125pt>
+File: ./Figures//ArdOpenPorts.png Graphic file (type png)
+<use ./Figures//ArdOpenPorts.png>
+Package pdftex.def Info: ./Figures//ArdOpenPorts.png  used on input line 59.
+(pdftex.def)             Requested size: 390.0pt x 162.47202pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./Figures//FirmwarePath.png>] [50]
+ [50 <./Figures//ArduinoMainOpen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+[51 <./Figures//ArdOpenPorts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+[52]) [53]
 \openout2 = `./TeX_files/Appendix.aux'.
 
- (./TeX_files/Appendix.tex
+ (./TeX_files/Appendix.tex [54
+
+
+
+
+]
 Appendix A.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1225,12 +1302,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[51
-
-
-
-
-]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
@@ -1245,7 +1317,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[52]) [53] [54
+[56]) [57] [58
 
 
 
@@ -1255,20 +1327,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: F550D5DD2B670650CCDBA9292B01F6E8;5694
-(rerunfilecheck)             After:  5769E322B8CA88335AC8942246C0E855;6448.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5769E322B8CA88335AC8942246C0E855;6448.
  ) 
 Here is how much of TeX's memory you used:
- 14415 strings out of 478994
- 231416 string characters out of 5858184
- 1128553 words of memory out of 5000000
- 31512 multiletter control sequences out of 15000+600000
+ 14445 strings out of 478994
+ 232007 string characters out of 5858184
+ 1128810 words of memory out of 5000000
+ 31534 multiletter control sequences out of 15000+600000
  414343 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,74p,726b,1602s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1290,10 +1356,10 @@ ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (60 pages, 3141240 bytes).
+Output written on main.pdf (64 pages, 3217302 bytes).
 PDF statistics:
- 874 PDF objects out of 1000 (max. 8388607)
- 688 compressed objects within 7 object streams
- 214 named destinations out of 1000 (max. 500000)
- 588 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 922 PDF objects out of 1000 (max. 8388607)
+ 727 compressed objects within 8 object streams
+ 222 named destinations out of 1000 (max. 500000)
+ 630 words of extra memory for PDF output out of 10000 (max. 10000000)
 

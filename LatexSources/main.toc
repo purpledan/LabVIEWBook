@@ -49,13 +49,13 @@
 \contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{47}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Getting Started}{47}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Writing and Reading Ports}{49}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Opening a serial port to an Arduino}{50}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Opening a serial port to an Arduino}{49}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Configuring I/O}{50}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}The main program loop}{50}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Closing all connections}{50}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{50}{section.3.3}%
-\contentsline {chapter}{\numberline {A}Installing LabVIEW}{51}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Introduction}{51}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Getting LabVIEW Community}{51}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Installing LabVIEW}{52}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Licencing}{52}{section.A.4}%
+\contentsline {subsection}{\numberline {3.2.3}The main program loop}{51}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Closing all connections}{51}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{51}{section.3.3}%
+\contentsline {chapter}{\numberline {A}Installing LabVIEW}{55}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introduction}{55}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Getting LabVIEW Community}{55}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Installing LabVIEW}{56}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Licencing}{56}{section.A.4}%
