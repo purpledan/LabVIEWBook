@@ -53,9 +53,9 @@
 \contentsline {subsection}{\numberline {3.2.2}Configuring I/O}{50}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}The main program loop}{51}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Closing all connections}{51}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{51}{section.3.3}%
-\contentsline {chapter}{\numberline {A}Installing LabVIEW}{55}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Introduction}{55}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Getting LabVIEW Community}{55}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Installing LabVIEW}{56}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Licencing}{56}{section.A.4}%
+\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{53}{section.3.3}%
+\contentsline {chapter}{\numberline {A}Installing LabVIEW}{57}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introduction}{57}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Getting LabVIEW Community}{57}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Installing LabVIEW}{58}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Licencing}{58}{section.A.4}%

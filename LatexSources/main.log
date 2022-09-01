@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  31 AUG 2022 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  1 SEP 2022 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,7 +1224,7 @@ File: ./Figures//ArdOpenPorts.png Graphic file (type png)
 Package pdftex.def Info: ./Figures//ArdOpenPorts.png  used on input line 59.
 (pdftex.def)             Requested size: 390.0pt x 162.47202pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
@@ -1232,54 +1232,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--69
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50 <./Figures//ArduinoMainOpen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+<./Figures//ArdLEDOFON.png, id=779, 470.75874pt x 230.8625pt>
+File: ./Figures//ArdLEDOFON.png Graphic file (type png)
+<use ./Figures//ArdLEDOFON.png>
+Package pdftex.def Info: ./Figures//ArdLEDOFON.png  used on input line 69.
+(pdftex.def)             Requested size: 312.00119pt x 153.00731pt.
+<./Figures//Safeshutdown.jpg, id=781, 682.55pt x 426.59375pt>
+File: ./Figures//Safeshutdown.jpg Graphic file (type jpg)
+<use ./Figures//Safeshutdown.jpg>
+Package pdftex.def Info: ./Figures//Safeshutdown.jpg  used on input line 77.
+(pdftex.def)             Requested size: 312.00119pt x 195.00525pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[51 <./Figures//ArdOpenPorts.png>] [52 <./Figures//ArdLEDOFON.png> <./Figures//
+Safeshutdown.jpg>]
+<./Figures//ArdClose.png, id=795, 489.32813pt x 231.36438pt>
+File: ./Figures//ArdClose.png Graphic file (type png)
+<use ./Figures//ArdClose.png>
+Package pdftex.def Info: ./Figures//ArdClose.png  used on input line 87.
+(pdftex.def)             Requested size: 312.00119pt x 147.52196pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-[51 <./Figures//ArdOpenPorts.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+[53 <./Figures//ArdClose.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-[52]) [53]
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+[54]) [55]
 \openout2 = `./TeX_files/Appendix.aux'.
 
- (./TeX_files/Appendix.tex [54
+ (./TeX_files/Appendix.tex [56
 
 
 
@@ -1302,7 +1330,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[55]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
@@ -1317,7 +1345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[56]) [57] [58
+[58]) [59] [60
 
 
 
@@ -1331,10 +1359,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5769E322B8CA88335AC8942246C0E855;6448.
  ) 
 Here is how much of TeX's memory you used:
- 14445 strings out of 478994
- 232007 string characters out of 5858184
- 1128810 words of memory out of 5000000
- 31534 multiletter control sequences out of 15000+600000
+ 14479 strings out of 478994
+ 232693 string characters out of 5858184
+ 1129171 words of memory out of 5000000
+ 31562 multiletter control sequences out of 15000+600000
  414343 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,74p,726b,1602s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1356,10 +1384,10 @@ ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (64 pages, 3217302 bytes).
+Output written on main.pdf (66 pages, 3318746 bytes).
 PDF statistics:
- 922 PDF objects out of 1000 (max. 8388607)
- 727 compressed objects within 8 object streams
- 222 named destinations out of 1000 (max. 500000)
- 630 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 942 PDF objects out of 1000 (max. 8388607)
+ 740 compressed objects within 8 object streams
+ 227 named destinations out of 1000 (max. 500000)
+ 645 words of extra memory for PDF output out of 10000 (max. 10000000)
 

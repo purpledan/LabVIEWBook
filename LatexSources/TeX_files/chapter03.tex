@@ -51,9 +51,9 @@ You need to provide this name to $\labview$ and tell it to open the Arduino, thi
 	\label{OpenPort}
 \end{figure}
 \subsection{Configuring I/O}
-With the Arduino now open, you can configure inputs and outputs. You have direct access to all analogue and digital outputs however, some sensors and extensions require you to open a port to initialise the device.\\
+With the Arduino now open, you can configure inputs and outputs. You have direct access to all analogue and digital outputs, however some sensors and extensions require you to open a port to initialise the device.\\
 
-Figure \ref{OpenPorts}
+Figure \ref{OpenPorts} shows how to open a port to a servo motor and a SPI serial channel. The functions are connected in series, this means that the functions are executed one after the other.\\
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{ArdOpenPorts}
@@ -61,7 +61,33 @@ Figure \ref{OpenPorts}
 	\label{OpenPorts}
 \end{figure}
 \subsection{The main program loop} 
+If there is no program loop, the program will execute once and do nothing. Most things physical process that occur in nature occur over time, quite obviously. Thus we need some way to have our little Arduino do some work for us over time.\\
+
+Figure \ref{ProgLoopArd} shows an example of a program loop. The loop constantly checks the input called ``Pulse Width'', this value is sent to the servo motor in order to move it to the desired direction. The loop then sends the value of the shift register to an digital channel, this channel could be connected to a LED on your breadboard which would turn it on. The loop then waits one second and starts again.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.80\textwidth]{ArdLEDOFON}
+	\caption{A simple loop turning a LED on and off, also allowing control of a servo motor.}
+	\label{ProgLoopArd}
+\end{figure}
 \subsection{Closing all connections}
+Once your program has reached the end of its life, there are some actions you will need to perform in order to shut down the Arduino safely. Back in the day, in order to shut down your computer, you had to shutdown windows and wait until a ominous message is shown on the monitor, figure \ref{Shutdown98} before you can press the power button.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.80\textwidth]{Safeshutdown}
+	\caption{Is it really safe though?}
+	\label{Shutdown98}
+\end{figure}
+
+Although not strictly necessary, you should do the same with the Arduino. It closes the serial port properly and prevents an open port from hanging. When a port hangs, it is impossible to reopen a port from $\labview$ and you will need to do some other fancy things to get back to your beloved Arduino.\\
+
+Figure \ref{ArdClose} shows how this simple procedure is done. It is wise to close ports to peripherals as well in case they require some special closing operations to prevent damage.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.80\textwidth]{ArdClose}
+	\caption{Final closing operations before the program stops.}
+	\label{ArdClose}
+\end{figure}
 \section{Quite Advanced Projects}
 \begin{enumerate}
 	\item \textbf{Build an access control system:}\\
