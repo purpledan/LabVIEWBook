@@ -1,13 +1,14 @@
 \chapter{Introduction}
 
 \section{Welcome}
-	Welcome to the $\labview$ course, for 3rd year physics students, at UJ.\\
-	In your first semester of $3^{rd}$ year, you have been exposed to a programming language called \texttt{C++}, an \textit{Object-Oriented} text based computer language.\\
+	Welcome to the $\labview$ course, for $3^{rd}$ year physics students, at UJ.\\
+	In your first semester, you have been exposed to a programming language called \texttt{C++}, an \textit{Object-Oriented} text based computer language.\\
 	With this mighty tool in hand, you made a little microcontroller do your bidding, specifically an \texttt{ATmega328} found on the Arduino boards.\\
 	
-	You may have noticed how terse statements in \texttt{C++} can get, sometimes obfuscating the programmers intent, see listing \ref{tinychess} on page \pageref{tinychess} for an extreme example. In this course however, we will not be dealing with text based statements, instead you will make a computer bend to your will by means of pictures and threads!\\
+	You may have noticed how terse statements in can get \texttt{C++}, sometimes obfuscating the programmers intent, see listing \ref{tinychess} on page \pageref{tinychess} for an extreme example. In this course however, we will not be dealing with text based statements, instead you will make a computer bend to your will by means of icons and wires!\\
 	
 	Before we jump into the details, let us first compare two programs performing the same task, one written in \texttt{C}, and one assembled in \texttt{LabVIEW}.\\
+	
 	Suppose we want to capture two decimal numbers from a user in order to compute the sum of said numbers:
 	
 	\subsubsection{C Programming}
@@ -124,7 +125,7 @@
 	
 	If you figured out how to place down controls in $\labview$, that is great, do not let the interface intimidate you. If you have not done so yet, we will go through the details in section \ref{HowToPlace}.
 	\subsubsection{The Block Diagram}
-	The sibling panel to figure \ref{EmptyFront} may be found in figure \ref{EmptyBlock}. As before, you may \texttt{Right click} on the white background to open the ``functions palette''. This is where you will spend most of your time in $\labview$, other than the help files that is. You thread together small function blocks to build the logic of your program. If you are reading this and can't find the block diagram panel, simply press \texttt{Ctrl-E}, this will switch from the front panel to the block diagram and vice versa. This is probably the most important hot-key in $\labview$ so learn it, you will often have to flip between the two windows.\\
+	The sibling panel to figure \ref{EmptyFront} may be found in figure \ref{EmptyBlock}. As before, you may \texttt{Right click} on the white background to open the ``functions palette''. This is where you will spend most of your time in $\labview$, other than the help files that is. You wire together small function blocks to build the logic of your program. If you are reading this and can't find the block diagram panel, simply press \texttt{Ctrl-E}, this will switch from the front panel to the block diagram and vice versa. This is probably the most important hot-key in $\labview$ so learn it, you will often have to flip between the two windows.\\
 	\begin{figure}
 		\centering
 		\includegraphics[width=\textwidth]{EmptyBlock}
@@ -134,9 +135,9 @@
 
 	\section{LabVIEW variables and you}
 	\subsection{Overview}
-	From your knowlage of mathematics, you understand the concept of a variable. This concept is of fundamental importance to all fields of computer science so let us take a slight detour before we dig further into $\labview$.\\
+	From your knowledge of mathematics, you understand the concept of a variable. This concept is of fundamental importance to all fields of computer science so let us take a slight detour before we dig further into $\labview$.\\
 	
-	Variables are named containers in which we may store information. It is then possible to read from, or write to, this container using it's name. At any moment in time, there are several named variables in your head, for example: \texttt{cellphoneNumber, currentDate, amountOfCoffeeHadToday,} etc.\\
+	Variables are named containers in which we may store information. It is then possible to read from, or write to, this container using its name. At any moment in time, there are several named variables in your head, for example: \texttt{cellphoneNumber, currentDate, amountOfCoffeeHadToday,} etc.\\
 	
 	With these examples, it is clear that some variables are not of the same type, i.e. saying ``I had 3 June 2022 coffees today'' makes no sense. You should know by now, or if you do not you will learn very soon, that computers are incredibly stupid and they will happily add 3 June 2022 to 072 543 7711 and give you a result. (The answer is 29 May 2045 by the way).\\
 	
@@ -194,7 +195,7 @@
 	We must create a program in which a user gives three integer values, \texttt{numberA}, \texttt{numberB}, and \texttt{NumberC}. The program needs to compute and output the sum of \texttt{numberA} and \texttt{numberB} as well as indicate if this sum is larger than \texttt{numberC}.\\
 	
 	The rest of this section will show you in detail how such a program is made in $\labview$, however it will not explain the details of the program in depth. This is left for later sections in chapter 2.\\%TODO reference chapter
-	\subsection{Implimentation}
+	\subsection{Implementation}
 	\subsubsection{Front Panel}
 	\label{HowToPlace}
 	You may think of the front panel as your scratch pad. What information does the user need to provide for our program and how may the computer display the outcome of a process?\\
@@ -253,7 +254,7 @@
 		\label{example2Block}
 	\end{figure}
 
-	From the function palette, select the ``comparison'' folder and look for the function that says ``greater than''. It is the triangle with the > symbol on it. Place this somewhere below the add function, but still between the controls and the indicators.\\
+	From the function palette, select the ``comparison'' folder and look for the function that says ``greater than''. It is the triangle with the $>$ symbol on it. Place this somewhere below the add function, but still between the controls and the indicators.\\
 	
 	You should now wire the output from this function to the terminal of your LED. The function compares two inputs and sends a true value to the LED if the one input is greater than the other, but how do we know which input is which? The ``context help'' window will show you which input is which, see figure \ref{context1Help}. If you do not see this window, just press \texttt{Ctrl+H} on your keyboard.\\
 	\begin{figure}

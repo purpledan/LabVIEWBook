@@ -1,61 +1,61 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Welcome}{1}{section.1.1}%
 \contentsline {subsubsection}{C Programming}{1}{section*.2}%
-\contentsline {subsubsection}{LabVIEW Programming}{3}{section*.5}%
-\contentsline {section}{\numberline {1.2}The LabVIEW Interface}{4}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Introduction}{4}{subsection.1.2.1}%
+\contentsline {subsubsection}{LabVIEW Programming}{2}{section*.5}%
+\contentsline {section}{\numberline {1.2}The LabVIEW Interface}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Introduction}{2}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}The VI}{5}{subsection.1.2.2}%
 \contentsline {subsubsection}{The Front Panel}{5}{section*.9}%
-\contentsline {subsubsection}{The Block Diagram}{6}{section*.11}%
-\contentsline {section}{\numberline {1.3}LabVIEW variables and you}{7}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Overview}{7}{subsection.1.3.1}%
+\contentsline {subsubsection}{The Block Diagram}{7}{section*.11}%
+\contentsline {section}{\numberline {1.3}LabVIEW variables and you}{8}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Overview}{8}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Variable Types}{8}{subsection.1.3.2}%
 \contentsline {subsubsection}{Boolean}{8}{section*.13}%
 \contentsline {subsubsection}{Floating Point}{8}{section*.14}%
-\contentsline {subsubsection}{Integer}{8}{section*.15}%
-\contentsline {subsubsection}{Strings}{8}{section*.16}%
+\contentsline {subsubsection}{Integer}{9}{section*.15}%
+\contentsline {subsubsection}{Strings}{9}{section*.16}%
 \contentsline {subsubsection}{Arrays}{9}{section*.17}%
 \contentsline {subsubsection}{Aggregate Types}{9}{section*.18}%
 \contentsline {section}{\numberline {1.4}Your First LabVIEW program}{10}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Problem statement}{10}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Implimentation}{10}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.2}Implementation}{10}{subsection.1.4.2}%
 \contentsline {subsubsection}{Front Panel}{10}{section*.20}%
 \contentsline {subsubsection}{Block Diagram}{12}{section*.23}%
 \contentsline {subsection}{\numberline {1.4.3}Testing your program}{15}{subsection.1.4.3}%
 \contentsline {subsection}{\numberline {1.4.4}Review}{16}{subsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.4.5}A word on Accessibility}{16}{subsection.1.4.5}%
-\contentsline {subsubsection}{Colour Blindness}{16}{section*.31}%
-\contentsline {subsubsection}{Vision Difficulty}{17}{section*.32}%
-\contentsline {section}{\numberline {1.5}Mini Projects}{18}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Computing Fundamentals in LabVIEW}{19}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Decision making structures}{19}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Case Structures}{20}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Ternary operators}{21}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Code looping structures}{22}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}For Loops}{23}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}While Loops}{25}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Aggregate data types}{26}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Arrays}{27}{subsection.2.3.1}%
-\contentsline {subsubsection}{Creation}{27}{section*.40}%
-\contentsline {subsubsection}{Manipulation}{27}{section*.42}%
-\contentsline {subsubsection}{Exploitation}{28}{section*.45}%
-\contentsline {subsubsection}{Using arrays with loops}{30}{section*.48}%
-\contentsline {subsection}{\numberline {2.3.2}Clusters}{34}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Creating functions}{36}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Project Management}{36}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Creating a Function}{38}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Using a Function}{43}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{44}{section.2.5}%
-\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{47}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Getting Started}{47}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{49}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Opening a serial port to an Arduino}{49}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Configuring I/O}{50}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}The main program loop}{51}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Closing all connections}{51}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{53}{section.3.3}%
-\contentsline {chapter}{\numberline {A}Installing LabVIEW}{57}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Introduction}{57}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Getting LabVIEW Community}{57}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Installing LabVIEW}{58}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Licencing}{58}{section.A.4}%
+\contentsline {subsection}{\numberline {1.4.5}A word on Accessibility}{18}{subsection.1.4.5}%
+\contentsline {subsubsection}{Colour Blindness}{18}{section*.31}%
+\contentsline {subsubsection}{Vision Difficulty}{18}{section*.32}%
+\contentsline {section}{\numberline {1.5}Mini Projects}{19}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Computing Fundamentals in LabVIEW}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Decision making structures}{21}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Case Structures}{22}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Ternary operators}{23}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Code looping structures}{24}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}For Loops}{25}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}While Loops}{27}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Aggregate data types}{28}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Arrays}{29}{subsection.2.3.1}%
+\contentsline {subsubsection}{Creation}{29}{section*.40}%
+\contentsline {subsubsection}{Manipulation}{29}{section*.42}%
+\contentsline {subsubsection}{Exploitation}{30}{section*.45}%
+\contentsline {subsubsection}{Using arrays with loops}{32}{section*.48}%
+\contentsline {subsection}{\numberline {2.3.2}Clusters}{36}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Creating functions}{38}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Project Management}{38}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Creating a Function}{40}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Using a Function}{45}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Slightly more advanced Mini Projects}{46}{section.2.5}%
+\contentsline {chapter}{\numberline {3}LabVIEW and Arduino}{49}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Getting Started}{49}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Writing and Reading Ports}{51}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Opening a serial port to an Arduino}{51}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Configuring I/O}{52}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}The main program loop}{53}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Closing all connections}{53}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Quite Advanced Projects}{55}{section.3.3}%
+\contentsline {chapter}{\numberline {A}Installing LabVIEW}{59}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introduction}{59}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Getting LabVIEW Community}{59}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Installing LabVIEW}{60}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Licencing}{60}{section.A.4}%
