@@ -95,20 +95,45 @@ Figure \ref{ArdClose} shows how this simple procedure is done. It is wise to clo
 	
 	Tier 1 $\left(40\%\right)$; Design and implement a program which allows the user to press a single button to open the door to the restricted area. The door should only open if the password given is correct. The program needs to tell the user if the password is incorrect. When you type the password, the box should not show what is being typed, instead you should see $\bullet\bullet\bullet\bullet$. The program should lock the door again after some time has passed so that it is not left open, however the door can't be locked if it is not closed so an alarm should sound if the door is left open for too long.\\
 	
-	 Tier 2 $\left(30\%\right)$; With the above program in place, adapt it to use an Arduino to light up some LEDs to show the status of the lock, for example, green for open and red for closed. Build a circuit to create a buzzer, adapt your program to make the Arduino sound an alarm if the door is left open for too long. Using an LCD screen with $\labview$ is easy, build an LCD module into your system which says if the door is open, closed and or locked.\\
+	 Tier 2 $\left(30\%\right)$; With the above program in place, adapt it to use an Arduino to light up some LEDs to show the status of the lock, for example, green for open and red for closed. Build a circuit to create a buzzer, adapt your program to make the Arduino sound an alarm if the door is left open for too long.\\
 	 
 	  Tier 3 $\left(20\%\right)$; If you enter the lab and the door closes. You will need to enter the password again to open the door. Add the ability to press a button from inside the lab to override the program to open the door. Up to now you are still just pretending that you are locking a door, use your knowledge from last semester to include a solenoid into your design.\\
 	  
-	  Tier 3 $\left(10\%\right)$; Finally, you have access to an RFID card reader, build a program in $\labview$ to use this facility to open the lock on the door.\\
+	  Tier 4 $\left(10\%\right)$; Using an LCD screen with $\labview$ is possible, build an LCD module into your system which says if the door is open, closed and or locked. Finally, you have access to an RFID card reader, build a program in $\labview$ to use this facility to open the lock on the door.\\
 	  
 	  \item \textbf{Build a Morse code generator:}\\
 	  You have seen previously how to convert a string into a series of bytes, use what you have learned to create a Morse code generator that will flash an LED and sound a buzzer.\\
 	  
 	  Tier 1 $\left(40\%\right)$ Your program should have a user input their name, telephone number and their message to send. The program should not allow long messages to be sent. The program should then send a Morse code message (via a on-screen light). Essentially you will need to convert every byte into a pattern corresponding to Morse code.\\
 	  
-	  Tier 2 $\left(20\%\right)$ Build a cryptographic system into your program so that the user can send a encrypted message using your program.\\
+	  Tier 2 $\left(30\%\right)$ Connect the program you have built to an Arduino so that you can light up an LED and beep out the Morse code with a buzzer. You should also be able to press a button to make the buzzer beep so that it is possible to send a message manually. You should be able to demonstrate this to me by sending an SOS message (Google: SOS Morse code).\\
 	  
-	  Tier 3 $\left(30\%\right)$ Connect the program you have built to an Arduino so that you can light up an LED and beep out the Morse code with a buzzer. You should also connect an LCD module so that it prints out your message in a way that is pleasing to you, more marks for interesting printing methods.\\
+	  Tier 3 $\left(10\%\right)$ Build a cryptographic system into your program so that the user can send a encrypted message using your program.\\
 	  
-	  Tier 4 $\left(10\%\right)$ Add the ability to have the user press a button to key Morse code into your program and have the program convert the code into text.\\
+	  Tier 4 $\left(20\%\right)$ You should also connect an LCD module so that it prints out your message in a way that is pleasing to you, more marks for interesting printing methods. Have your program display a simple graph that plots the status of the input button you added in Tier 2. Add the ability to have the user press a button to key Morse code into your program and have the program convert the code into text. This is extremely difficult, you will get full marks for this if your program is able to read SOS i.e. ***---***.\\
+	  
+	  \item \textbf{Build an automated kettle:}\\
+	  
+	  Tier 1 $\left(30\%\right)$ A normal kettle, when turned on, will heat up its contents until boiling, after which it turns off. Suppose you want to heat up water to an arbitrary temperature, you will need to measure the actual temperature of the water and turn off the kettle once that temperature is reached. Create a program in \labview that simulates such a kettle. You need to have a fake input temperature, a desired temperature, a switch to turn the kettle on and off, aswell as the measured temperature of the system. You may spice up the program by printing useful information to the screen.\\
+	  
+	  Tier 2 $\left(30\%\right)$ Once you have the simulated program ready, start adding features using your Arduino. You should have an indicator light of some sort that shows the circuit is live and that the kettle could turn on at any moment, an indicator that shows if the temperature is above or below the desired temperature, and you should have a working physical switch.\\
+	  
+	  Tier 3 $\left(30\%\right)$ If everything above is working, you should now be able to wire in the control circuit for the kettle, this requires a relay. More important than the relay, you wish to also measure the actual temperature over time, plot this in a graph. Bonus marks if you are able to save this to a file.\\
+	  
+	  Tier 4 $\left(10\%\right)$ Connect the system to an actual temperature sensor and perform the experiment.\\
+	  
+	  \item \textbf{Computer fan controller:}\\
+	  
+	  Tier 1 $\left(40\%\right)$ You have a computer that has a slight heating problem, you would like to solve this heating problem by creating a program which measures the temperature of the CPU and sets the fan speed accordingly. You should build a simulated system in which a given temperature sets the fan speed and displays the relevant info on the screen. Add some indicator lights to make things interesting, for example if the fan is off, have a light say so.\\
+	  
+	  Tier 2 $\left(30\%\right)$ Once the above is ready, you should wire in the indicator lights and a fake output for the fan. This fake output will be an PWM controlled LED which you will be able to dim and bright according to your fake CPU temperature. You should also add a potentiometer to adjust fan speed along with a switch to decide which input to use, temperature or knob.\\
+	  
+	  Tier 3 $\left(20\%\right)$ If your program logic works, you should now be able to wire in an actual temperature sensor and fan. Depending on the type of temperature sensor, you will need to calibrate it.\\
+	  
+	  Tier 4 $\left(10\%\right)$ Setup an LCD display so that you can monitor the fan speed and CPU temperature\\
+	  
+	  \item \textbf{Your own project:}\\
+	  
+	  If you can come up with an advanced project yourself, let me know.
+	  
 \end{enumerate}
